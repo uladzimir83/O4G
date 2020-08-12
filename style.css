@@ -32,6 +32,7 @@ html,
 body {
   font-family: Nunito, sans-serif;
   font-size: 18px;
+  font-weight: normal;
   line-height: 1.333;
   color: #646084;
 }
@@ -52,6 +53,26 @@ svg {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.btn {
+  display: inline-block;
+  width: 250px;
+  height: 70px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 75px;
+  text-align: center;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.btn--blue {
+  background: linear-gradient(90deg, #5585ED 0%, #76BBFE 100%);
+}
+
+.btn--orange {
+  background: linear-gradient(90deg, #FC8C3C 0%, #FCC43C 100%);
 }
 
 /* ------ end common styles ------ */
@@ -193,6 +214,31 @@ img {
 .header-content {
   position: relative;
   z-index: 1;
+}
+
+.header-text {
+  padding-top: 127px;
+}
+
+.header-title {
+  margin-bottom: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 1.357;
+  color: #494376;
+}
+
+.header-leading {
+  max-width: 380px;
+  margin-bottom: 110px;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 1.346;
+}
+
+.header-btn .btn:first-child {
+  margin-right: 14px;
 }
 
 .header-media {
