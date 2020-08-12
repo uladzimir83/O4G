@@ -1,0 +1,163 @@
+/* ----- reset browsers styles ----- */
+
+a {
+    text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+ul,
+li {
+  list-style: none;
+  position: relative;
+}
+
+pre {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+}
+
+/* ----- end reset browsers styles ----- */
+
+/* ------ common styles ------ */
+
+html,
+body {
+  font-family: Nunito, sans-serif;
+  font-size: 18px;
+  line-height: 1.333;
+  color: #646084;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ------ end common styles ------ */
+
+
+/* ------ page grid styles ------ */
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.inner {
+  display: flex;
+}
+
+.inner--wide {
+  justify-content: space-between;
+}
+
+/* ------ end page grid styles ------ */
+
+
+/* ------ Header ------ */
+.header-dev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 46px;
+  background-color: #f7f8fa;
+}
+
+.dev-logo {
+  display: flex;
+  align-items: center;
+}
+
+.dev-logo__inner {
+  overflow: hidden;
+  height: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dev-logo__inner:first-child {
+  text-align: right;
+}
+
+.dev-logo__text {
+  font-size: 13px;
+  letter-spacing: 0.4px;
+}
+
+.dev-logo__text,
+.dev-logo__text--hidden {
+  transition: transform .5s;
+}
+
+.dev-logo:hover .dev-logo__text,
+.dev-logo:hover .dev-logo__text--hidden {
+  transform: translateY(-17px);
+}
+
+.dev-logo__link {
+  color: #1c85c8;
+  transition: opacity .3s;
+}
+
+.dev-logo__link:hover {
+  opacity: .7;
+}
+
+.dev-logo__icon__link {
+  display: inline-block;
+  width: 62px;
+  height: 28px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.dev-logo__icon__path {
+  transition: fill .3s;
+}
+
+.dev-logo:hover .dev-logo__icon__path {
+  fill: #1c85c8;
+}
+
+.header-nav {
+  padding: 25px 0;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu__link {
+  margin-right: 20px;
+  font-family: Nunito, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.375;
+  color: #494376;
+}
+
+.menu__link:last-child {
+  margin-right: 0;
+}
+
+/* ------ end Header ------ */
