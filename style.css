@@ -76,11 +76,13 @@ img {
 
 /* ------ Header ------ */
 .header-dev {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 46px;
   background-color: #f7f8fa;
+  z-index: 1;
 }
 
 .dev-logo {
@@ -102,6 +104,7 @@ img {
 .dev-logo__text {
   font-size: 13px;
   letter-spacing: 0.4px;
+  color: #000;
 }
 
 .dev-logo__text,
@@ -140,18 +143,28 @@ img {
 }
 
 .header-nav {
-  padding: 25px 0;
+  position: relative;
+  padding: 9px 0;
+  z-index: 1;
 }
 
 .menu {
   display: flex;
+  margin-right: 13px;
+}
+
+.menu__item {
+  margin-right: 71px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
 }
 
 .menu__link {
-  margin-right: 20px;
   font-family: Nunito, sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.375;
   color: #494376;
 }
