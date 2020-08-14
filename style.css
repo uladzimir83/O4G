@@ -55,6 +55,11 @@ img {
   height: auto;
 }
 
+main {
+  position: relative;
+  z-index: 6;
+}
+
 .btn {
   display: inline-block;
   width: 250px;
@@ -191,6 +196,8 @@ img {
   fill: #1c85c8;
 }
 
+
+
 .header-nav {
   position: relative;
   z-index: 5;
@@ -219,6 +226,8 @@ img {
   line-height: 1.375;
   color: #494376;
 }
+
+
 
 .header-text {
   padding-top: 127px;
@@ -250,12 +259,14 @@ img {
   margin-right: 14px;
 }
 
+
 .header-media {
   position: relative;
   z-index: 2;
   margin-top: -34px;
   margin-right: -152px; 
 }
+
 
 .header-shape {
   position: absolute;
@@ -265,13 +276,14 @@ img {
   height: 360px;
 }
 
+
 .header-bottom {
   position: absolute;
-  bottom: -250px;
+  bottom: -300px;
   z-index: -1;
   width: 100%;
   height: 614px;
-  background: linear-gradient(180.42deg, #fbcd88 39.68%, rgba(255, 226, 99, 0) 96.24%);
+  background: linear-gradient(180.42deg, #fbcd88 39.68%, rgba(255, 226, 99, 0) 89.24%);
 }
 
 .header-bottom:after {
@@ -287,3 +299,26 @@ img {
 }
 
 /* ------ end Header ------ */
+
+/* ------ Page nav part ------ */
+.section-nav {
+  padding-top: 150px;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.page-nav__link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.389;
+  text-align: center;
+  color: #494376;
+}
+
+/* ------ end Page nav part ------ */
