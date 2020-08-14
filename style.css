@@ -60,6 +60,21 @@ main {
   z-index: 6;
 }
 
+.section-title {
+  margin-bottom: 25px;
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.25;
+  color: #494376;
+}
+
+.section-leading {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
 .btn {
   display: inline-block;
   width: 250px;
@@ -99,6 +114,10 @@ main {
 
 .center-col {
   align-items: center;
+}
+
+.col {
+  position: relative;
 }
 
 /* ------ end page grid styles ------ */
@@ -322,3 +341,57 @@ main {
 }
 
 /* ------ end Page nav part ------ */
+
+/* ------ About section ------ */
+.section-about {
+  padding-top: 150px;
+}
+
+.about-col--left {
+  max-width: 470px;
+  margin-left: calc((100% - 1320px) / 2);
+  margin-top: -15px;
+}
+
+.about-col--left:before {
+  position: absolute;
+  top: 71px;
+  left: -208px;
+  content: '';
+  width: 406px;
+  height: 410px;
+  border-radius: 50%;
+  background: linear-gradient(72.94deg, #8BAEF5 -34.63%, rgba(139, 174, 245, 0) 58.32%);
+}
+
+.about-leading {
+  margin-bottom: 90px;
+}
+
+.about-users {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-col--right:after {
+  z-index: -1;
+  position: absolute;
+  bottom: -105px;
+  right: 90px;
+  content: '';
+  width: 331px;
+  height: 311px;
+  border-radius: 50%;
+  background: linear-gradient(270deg, #E6E9EE 12.81%, rgba(255, 255, 255, 0.1) 100%);
+} 
+
+.about-media {
+  margin-left: -166px;
+}
+
+.about-img {
+  display: inline-block;
+  max-width: 1308px;
+  width: 100%;
+}
+/* ------ end About section ------ */
