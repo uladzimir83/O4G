@@ -396,3 +396,60 @@ main {
   width: 100%;
 }
 /* ------ end About section ------ */
+
+/* ------ Core Functions section ------ */
+ 
+.section-functions {
+  padding-top: 100px;
+}
+
+.functions-title {
+  text-align: center;
+}
+
+.functions {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.functions:after {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: -1;
+  transform: translateX(-50%);
+  content: '';
+  width: 813px;
+  height: 819px;
+  border-radius: 50%;
+  background: linear-gradient(180.01deg, #C4D5FA 0.01%, rgba(255, 255, 255, 0.1) 86.27%);
+}
+
+.functions__item {
+  text-align: center;
+}
+
+.functions__item--1,
+.functions__item--5 {
+  margin-top: 22px;
+}
+
+.functions__item--2,
+.functions__item--4 {
+  margin-top: 175px;
+}
+
+.functions__img {
+  display: inline-block;
+  margin-bottom: 17px;
+}
+
+.functions__text {
+  padding: 0 18px;
+}
+
+/* ------ end Core Functions section ------ */
