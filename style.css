@@ -100,6 +100,7 @@ main {
 
 /* ------ page grid styles ------ */
 .container {
+  position: relative;
   max-width: 1320px;
   margin: 0 auto;
 }
@@ -110,6 +111,10 @@ main {
 
 .wide-row {
   justify-content: space-between;
+}
+
+.wide-row--reverse {
+  flex-direction: row-reverse;
 }
 
 .center-col {
@@ -283,7 +288,7 @@ main {
   position: relative;
   z-index: 2;
   margin-top: -34px;
-  margin-right: -152px; 
+  margin-right: -152px;
 }
 
 
@@ -384,7 +389,7 @@ main {
   height: 311px;
   border-radius: 50%;
   background: linear-gradient(270deg, #E6E9EE 12.81%, rgba(255, 255, 255, 0.1) 100%);
-} 
+}
 
 .about-media {
   margin-left: -166px;
@@ -398,9 +403,10 @@ main {
 /* ------ end About section ------ */
 
 /* ------ Core Functions section ------ */
- 
+
 .section-functions {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .functions-title {
@@ -453,3 +459,69 @@ main {
 }
 
 /* ------ end Core Functions section ------ */
+
+/* ------ Syncing section ------- */
+
+.section-syncing {
+  position: relative;
+  padding-top: 130px;
+}
+
+.section-syncing:before {
+  position: absolute;
+  top: 57px;
+  left: 128px;
+  z-index: -1;
+  content: '';
+  width: 394px;
+  height: 397px;
+  border-radius: 50%;
+  background: linear-gradient(141.81deg, #E6E9EE 5.21%, rgba(255, 255, 255, 0.1) 90.73%);
+}
+
+.section-syncing .col {
+  width: 50%;
+}
+
+.sync-leading {
+  padding-right: 95px;
+  line-height: 1.2;
+}
+
+.sync-media {
+  margin-left: 17px;
+  margin-top: 10px;
+}
+
+.sync-img {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.sync-middle {
+  margin: -71px 0 -90px;
+  padding: 102px 0;
+  text-align: right;
+  color: #fff;
+  background: linear-gradient(-89.6deg, rgba(89, 139, 240, 0.7) 44.11%, rgba(116, 184, 254, 0) 95.51%);
+}
+
+.sync-middle .sync-title {
+  margin-top: -26px;
+  color: #fff;
+}
+
+.sync-middle .sync-leading {
+  padding-right: 0;
+  padding-left: 95px;
+}
+
+.sync-middle .sync-media {
+  margin: 0 20px 0 0;
+}
+
+.sync-bottom .sync-title {
+  margin-top: -25px;
+  margin-bottom: 31px;
+}
+
+/* ------ end Syncing section ------- */
