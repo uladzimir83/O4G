@@ -465,6 +465,7 @@ main {
 .section-syncing {
   position: relative;
   padding-top: 130px;
+  padding-bottom: 55px;
 }
 
 .section-syncing:before {
@@ -525,3 +526,135 @@ main {
 }
 
 /* ------ end Syncing section ------- */
+
+/* ------  Features section ------ */
+
+.section-features {
+  position: relative;
+  overflow: hidden;
+  padding-top: 150px;
+}
+
+.section-features:before {
+  position: absolute;
+  top: 0;
+  right: -114px;
+  z-index: -1;
+  width: 88vw;
+  height: 88.65vw;
+  content: '';
+  border-radius: 50%;
+  background: linear-gradient(236.67deg, #E6E9EE 1.03%, rgba(255, 255, 255, 0.1) 85.54%);
+}
+
+.section-features:after {
+  position: absolute;
+  top: 535px;
+  left: 64px;
+  z-index: -1;
+  width: 471px;
+  height: 474px;
+  content: '';
+  border-radius: 50%;
+  background: linear-gradient(226.76deg, #FBB188 11.43%, rgba(255, 226, 99, 0) 86.14%);
+}
+
+.features-title {
+  margin-bottom: 97px;
+  text-align: center;
+}
+
+.features-table {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.features-heading th {
+  border-right: 4px solid rgba(67,82,91, .1);
+
+}
+
+.features-heading th:last-child {
+  padding-left: 18px;
+  border-right-color: transparent;
+  text-align: left;
+}
+
+.feature-heading--wide {
+  padding-left: 142px;
+  text-align: left;
+}
+
+.features-heading span {
+  position: relative;
+  top: -30px;
+  display: inline-block;
+  width: 140px;
+  height: 60px;
+  font-family: Quicksand;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #8BAEF5;
+  border-radius: 10px;
+}
+
+.feature-heading--wide span {
+  width: 252px;
+}
+
+tr {
+  padding-right: 79px;
+}
+
+td {
+  line-height: 2.778;
+  border-right: 4px solid rgba(67,82,91, .1);
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: center;
+}
+
+td:last-child {
+  border-right-color: transparent;
+  padding: 0 138px 0 55px;
+}
+
+tr:nth-child(even) {
+  background: linear-gradient(90deg, rgba(228, 240, 254, 0) -12.88%, #E4F0FE 51.35%, rgba(228, 240, 254, 0) 112.95%);
+}
+
+tr:last-child {
+  height: 50px;
+}
+
+.feature-type {
+  padding: 29px 0 15px 142px;
+  font-family: Quicksand;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 1.731;
+  text-align: left;
+  color: #494376;
+}
+
+.feature-type__first {
+  padding-top: 19px;
+}
+
+.feature-text {
+  width: 891px;
+  padding-left: 142px;
+  text-align: left;
+}
+
+.feature-check {
+  background: url('img/check.png') no-repeat;
+  background-position: 77px;
+}
+
+/* ------ end Features section ------ */
