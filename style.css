@@ -688,3 +688,112 @@ tr:last-child {
   margin-right: 20px;
 }
 /* ------ end Boost section ------ */
+
+/* ------ Testimonials section ------ */
+
+.section-testimonials {
+  padding: 137px 0 114px;
+  background: linear-gradient(89.4deg, #E6E9EE 14.16%, rgba(255, 255, 255, 0) 36.48%);
+}
+
+.testimonials__title {
+  margin-bottom: 78px;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.testimonials-card {
+  flex: 0 0 390px;
+  min-height: 566px;
+  overflow: hidden;
+  padding: 40px 24px 56px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.testimonials__center {
+  flex: 0 0 406px;
+  color: #fff;
+  background: linear-gradient(180deg, #5788EF 0%, #74B7FE 100%);
+}
+
+.testimonials__center .testimonials-card__user:after {
+  display: none;
+}
+
+.testimonials-card__user {
+  position: relative;
+  z-index: 1;
+}
+
+.testimonials-card__user:after {
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  z-index: -1;
+  width: 557px;
+  height: 537px;
+  content: '';
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: linear-gradient(180deg, #EFF0F5 0%, rgba(255, 255, 255, 0) 82.76%);
+}
+
+.card-user__photo {
+  display: flex;
+  align-items: center;
+  width: 168px;
+  height: 168px;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  text-align: right;
+  background: linear-gradient(180deg, #5585EE 0%, #76BCFE 100%);
+}
+
+.testimonials__center .card-user__photo {
+  margin-bottom: 45px;
+  background: #e4e7ef;
+}
+
+.testimonials__left .card-user__photo {
+  justify-content: flex-end;
+}
+
+.card-user__img {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.testimonials__center .card-user__img {
+  width: 160px;
+  height: 160px;
+}
+
+.card-user__title {
+  margin-bottom: 10px;
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+.card-user__subtitle {
+  margin-bottom: 22px;
+}
+
+.card-user__text {
+  font-size: 16px;
+  line-height: 1.375;
+}
+
+/* ------ end Testimonials section ------ */
