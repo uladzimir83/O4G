@@ -797,3 +797,210 @@ tr:last-child {
 }
 
 /* ------ end Testimonials section ------ */
+
+/* ------ News section ------ */
+
+.section-news {
+  position: relative;
+  z-index: 1;
+  padding-top: 87px;
+  padding-bottom: 576px;
+}
+
+.news-title {
+  margin-bottom: 57px;
+}
+
+.news-card {
+  position: relative;
+  display: flex;
+  width: 1058px;
+  min-height: 220px;
+  margin: auto;
+  margin-bottom: 70px;
+  background: #FFFFFF;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.news-card:after {
+  position: absolute;
+  top: -147px;
+  right: -310px;
+  z-index: -1;
+  content: '';
+  width: 480px;
+  height: 477px;
+  border-radius: 50%;
+  background: linear-gradient(180.01deg, #C4D5FA 0.01%, rgba(255, 255, 255, 0.1) 86.27%);
+}
+
+.news-card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1 0 347px;
+  background: linear-gradient(90deg, #FBB188 -68.92%, #FFEAC7 100%);
+  border-radius: 10px;
+}
+
+.news-card__title {
+  margin-bottom: 30px;
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.233;
+  text-align: center;
+  color: #494376;
+}
+
+.news-card__date {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 1.364;
+  text-align: center;
+}
+
+.news-card__content {
+  padding: 53px 35px 46px;
+}
+
+.news-card__offer {
+  margin-bottom: 25px;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.news-card__text {
+  font-size: 18px;
+  line-height: 1.333;
+  letter-spacing: 0;
+}
+
+.news-card__link {
+  font-weight: 600;
+  color: #646084;
+}
+
+/* ------ end News section ------ */
+
+/* ------ Info section ------ */
+
+.section-contact {
+  position: relative;
+  margin-top: -194px;
+  padding-bottom: 55px;
+}
+
+.section-contact:after {
+  position: absolute;
+  bottom: 65px;
+  left: 0;
+  width: 100%;
+  height: 400px;
+  content: '';
+  background: linear-gradient(360deg, #FBB188 0%, rgba(255, 226, 99, 0) 90.24%);
+}
+
+.section-contact:before {
+  position: absolute;
+  bottom: 33px;
+  left: 0;
+  width: 100%;
+  height: 640px;
+  content: '';
+  background: url('img/info_bg_vawe.png') no-repeat;
+}
+
+.contact-inner {
+  position: relative;
+  z-index: 2;
+}
+
+.contact-col--left {
+  margin-left: -5px;
+}
+
+.contact-col--right {
+  margin-top: 8px;
+  padding-right: 5px;
+}
+
+.contact-link {
+  position: relative;
+  color: #5789ef;
+}
+
+.contact-link:after {
+  position: absolute;
+  bottom: 3px;
+  left: 1px;
+  width: 100%;
+  height: 1px;
+  opacity: 1;
+  content: '';
+  background-color: #5788ef;
+  transition: opacity .3s;
+}
+
+.contact-link:hover.contact-link:after {
+  opacity: 0;
+}
+
+.contact-text {
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.contact-col--right p {
+  margin-bottom: 14px;
+  text-align: right;
+  letter-spacing: -.9px;
+}
+
+.contact-btn .btn {
+  width: 220px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.contact-shape {
+  position: absolute;
+  bottom: -75px;
+  width: 100%;
+  height: 400px;
+  z-index: 1;
+}
+
+/* ------ end Info section ------ */
+
+/* ------ Footer ------ */
+
+.footer {
+  position: relative;
+  z-index: 6;
+  margin-top: -15px;
+  padding-top: 59px;
+  padding-bottom: 105px;
+  border-top: 4px solid #e5e5e5;
+  background: linear-gradient(-90.03deg, #E6E7EF 0.02%, #FFFFFF 99.97%);
+}
+
+.footer-col--left {
+  width: 540px;
+}
+
+.footer-col--right {
+  width: 510px;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.375;
+}
+
+.footer-col--left .footer-text:first-child {
+  margin-bottom: 7px;
+}
+
+/* ------ end Footer ------ */
