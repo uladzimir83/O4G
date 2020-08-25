@@ -479,7 +479,7 @@ main {
 }
 
 .about-col--left {
-  max-width: 470px;
+  width: 473px;
   margin-left: calc((100% - 1320px) / 2);
   margin-top: -15px;
 }
@@ -505,10 +505,10 @@ main {
 }
 
 .about-col--right:after {
-  z-index: -1;
+  z-index: -2;
   position: absolute;
-  bottom: -105px;
-  right: 90px;
+  bottom: -112px;
+  right: -132px;
   content: '';
   width: 331px;
   height: 311px;
@@ -517,13 +517,78 @@ main {
 }
 
 .about-media {
-  margin-left: -166px;
+  position: relative;
+  margin-left: 40px;
+  text-align: center;
 }
 
-.about-img {
-  display: inline-block;
-  max-width: 1308px;
-  width: 100%;
+.about-media:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  content: '';
+  transform: translateX(-50%);
+  content: '';
+  width: 69.2vw;
+  height: 70px;
+  background: url('img/laptop_shadow.png') no-repeat;
+  background-size: 100% 100%;
+  z-index: -1;
+}
+
+@media (max-width: 1599px) {
+  .section-about {
+    padding-top: 177px;
+  }
+
+  .about-col--left:before {
+    top: 191px;
+    left: -85px;
+    width: 292px;
+    height: 295px;
+  }
+
+  .about-col--left {
+    width: 430px;
+    margin-left: calc((100% - 1150px) / 2);
+    margin-top: -52px;
+  }
+
+  .about-leading {
+    margin-bottom: 50px;
+  }
+
+  .about-users {
+    justify-content: space-around;
+  }
+
+  .about-users img {
+    max-width: 117px;
+  }
+
+  .about-col--right {
+    margin-top: -20px;
+    margin-right: 20px;
+  }
+
+  .about-col--right:after {
+    bottom: -56px;
+    right: 15px;
+    width: 220px;
+    height: 220px;
+  }
+
+  .about-media {
+    margin-left: -13px;
+  }
+
+  .about-media:after {
+    display: none;
+  }
+
+  .about-img {
+    max-width: 88%;
+  }
 }
 /* ------ end About section ------ */
 
