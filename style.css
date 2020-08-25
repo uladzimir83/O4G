@@ -648,6 +648,38 @@ main {
   padding: 0 18px;
 }
 
+@media (max-width: 1599px) {
+  .section-functions {
+    padding-top: 58px;
+  }
+
+  .functions {
+    padding-top: 50px;
+  }
+
+  .functions__item--1,
+  .functions__item--5 {
+    margin-top: 40px;
+  }
+
+  .functions:after {
+    width: 774px;
+    height: 780px;
+  }
+
+  .functions__img {
+    max-width: 163px;
+  }
+
+  .functions__item--3 .functions__img {
+    max-width: 210px;
+  }
+
+  .functions__text {
+    padding: 0px;
+  }
+}
+
 /* ------ end Core Functions section ------ */
 
 /* ------ Syncing section ------- */
