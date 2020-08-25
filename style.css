@@ -284,12 +284,18 @@ main {
 
 
 .header-text {
+  margin-right: 13.7vw;
   padding-top: 127px;
 }
 
 .header-content {
   position: relative;
   z-index: 4;
+}
+
+.header-content__inner {
+  display: flex;
+  margin-left: calc((100% - 1320px) / 2);
 }
 
 .header-title {
@@ -317,10 +323,13 @@ main {
 .header-media {
   position: relative;
   z-index: 2;
-  margin-top: -34px;
-  margin-right: -152px;
+  margin-top: -21px;
+  margin-right: 15px;
 }
 
+.header-media__img {
+  max-width: 98%;
+}
 
 .header-shape {
   position: absolute;
@@ -350,6 +359,77 @@ main {
   background: url('img/header_bg_vawe.png') no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+@media (max-width: 1599px) {
+  .header-nav {
+    padding: 16px 0;
+  }
+
+  .logo__link {
+    display: inline-block;
+    width: 205px;
+    height: 36px;
+  }
+
+  .menu {
+    margin-right: 0;
+  }
+
+  .menu__item {
+    margin-right: 42px;
+  }
+
+  .menu__link {
+    font-size: 16px;
+    line-height: 1.375;
+  }
+
+  .header-content__inner {
+    display: flex;
+    margin-left: calc((100% - 1150px) / 2);
+  }
+
+  .header-text {
+    min-width: 450px;
+    margin-right: 15.7vw;
+    padding-top: 106px;
+  }
+
+  .header-title {
+    margin-bottom: 14px;
+    font-size: 60px;
+    line-height: 1.3667;
+  }
+
+  .header-leading {
+    margin-bottom: 40px;
+    font-size: 22px;
+    line-height: 1.5909;
+  }
+
+  .header-media {
+    margin-top: -13px;
+  }
+
+  .header-media__img {
+    max-width: 84%;
+  }
+
+  .header-shape {
+    bottom: -80px;
+    height: 230px;
+  }
+
+  .header-bottom {
+    bottom: -250px;
+    height: 500px;
+  }
+
+  .header-bottom:after {
+    top: -145px;
+    height: 590px;
+  }
 }
 
 /* ------ end Header ------ */
