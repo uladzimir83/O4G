@@ -95,6 +95,25 @@ main {
   background: linear-gradient(90deg, #FC8C3C 0%, #FCC43C 100%);
 }
 
+@media (max-width: 1599px) {
+  .section-title {
+    font-size: 32px;
+    line-height: 1.25;
+  }
+
+  .section-leading {
+    font-size: 18px;
+    line-height: 1.556;
+  }
+
+  .btn {
+    width: 210px;
+    height: 58px;
+    font-size: 18px;
+    line-height: 58px;
+  }
+}
+
 /* ------ end common styles ------ */
 
 
@@ -103,6 +122,12 @@ main {
   position: relative;
   max-width: 1320px;
   margin: 0 auto;
+}
+
+@media (max-width: 1599px) {
+  .container {
+    max-width: 1150px;
+  }
 }
 
 .inner {
