@@ -747,6 +747,57 @@ main {
   margin-bottom: 31px;
 }
 
+@media (max-width: 1599px) {
+  .section-syncing {
+    padding-top: 66px;
+  }
+
+  .section-syncing:before {
+    top: 47px;
+    left: -18px;
+    width: 327px;
+    height: 330px;
+  }
+
+  .sync-col--left {
+    margin-top: 3px;
+  }
+
+  .sync-leading {
+    padding-right: 106px;
+    line-height: 1.375;
+  }
+
+  .sync-media {
+    margin-left: 50px;
+  }
+
+  .sync-middle {
+    margin: -40px 0 -60px;
+    padding: 68px 0;
+  }
+
+  .sync-middle .sync-col--left {
+    margin-top: 22px;
+  }
+
+  .sync-middle .sync-media {
+    margin: 0 43px 0 0;
+  }
+
+  .sync-middle .sync-leading {
+    padding-left: 80px;
+  }
+
+  .sync-bottom .sync-col--left {
+    margin-top: 30px;
+  }
+
+  .sync-bottom .sync-leading {
+    padding-right: 65px;
+  }
+}
+
 /* ------ end Syncing section ------- */
 
 /* ------  Features section ------ */
