@@ -1025,6 +1025,24 @@ tr:last-child {
 .boost-btn .btn:first-child {
   margin-right: 20px;
 }
+
+@media (max-width: 1599px) {
+  .section-boost {
+    padding: 174px 0 170px;
+  }
+
+  .boost-title {
+    margin-bottom: 34px;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .boost-btn .btn:first-child {
+    margin-right: 10px;
+    margin-left: -18px;
+  }
+}
+
 /* ------ end Boost section ------ */
 
 /* ------ Testimonials section ------ */
@@ -1211,8 +1229,7 @@ tr:last-child {
 .section-news {
   position: relative;
   z-index: 1;
-  padding-top: 87px;
-  padding-bottom: 576px;
+  padding: 87px 0 576px;
 }
 
 .news-title {
@@ -1288,6 +1305,55 @@ tr:last-child {
 .news-card__link {
   font-weight: 600;
   color: #646084;
+}
+
+@media (max-width: 1599px) {
+  .section-news {
+    padding: 87px 0 576px;
+  }
+
+  .news-card {
+    margin-bottom: 50px;
+    width: 880px;
+  }
+
+  .news-card:after {
+    top: -113px;
+    right: -167px;
+    width: 375px;
+    height: 377px;
+  }
+
+  .news-card__info {
+    flex: 1 0 288px;
+  }
+  
+  .news-card__title {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    line-height: 1.25;
+  }
+
+  .news-card__date {
+    font-size: 18px;
+    line-height: 1.389;
+  }
+
+  .news-card__content {
+    padding: 36px 37px 46px;
+  }
+
+  .news-card__offer {
+    margin-bottom: 6px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .news-card__text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
 }
 
 /* ------ end News section ------ */
