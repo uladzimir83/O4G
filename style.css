@@ -932,6 +932,76 @@ tr:last-child {
   background-position: 77px;
 }
 
+@media (max-width: 1599px) {
+  .section-features {
+    padding-top: 86px;
+  }
+
+  .section-features:before {
+    right: -79px;
+    width: 84.6vw;
+    height: 84vw;
+  }
+
+  .features-title {
+    margin-bottom: 83px;
+  }
+
+  .features-heading th {
+    text-align: center;
+  }
+
+  .features-heading th:last-child {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  th.feature-heading--wide {
+    padding-left: 133px;
+    text-align: left;
+  }
+
+  .features-heading span {
+    top: -26px;
+    width: 116px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  .feature-heading--wide span {
+    width: 211px;
+  }
+
+  .feature-type {
+    padding: 36px 0 3px 135px;
+    font-size: 22px;
+    line-height: 2.045;
+  }
+
+  .feature-type__first {
+    padding-top: 9px;
+  }
+
+  .feature-text {
+    width: 760px;
+    padding-left: 134px;
+  }
+
+  td {
+    line-height: 2.5;
+    font-size: 16px;
+  }
+
+  td:last-child {
+    padding: 0;
+  }
+
+  .feature-check {
+    background-position: center;
+  }
+}
+
 /* ------ end Features section ------ */
 
 
@@ -1064,6 +1134,74 @@ tr:last-child {
 .card-user__text {
   font-size: 16px;
   line-height: 1.375;
+}
+
+@media (max-width: 1599px) {
+  .section-testimonials {
+    padding: 154px 0 93px;
+  }
+
+  .testimonials-title {
+    margin-bottom: 59px;
+  }
+
+  .testimonials {
+    margin-bottom: 50px;
+  }
+
+  .testimonials-card {
+    flex: 0 0 340px;
+    min-height: 510px;
+    margin-top: -40px;
+    padding: 30px 24px 38px;
+  }
+
+  .testimonials__center {
+    margin-top: 0;
+    padding-top: 40px;
+    flex: 0 0 353px;
+  }
+
+  .card-user__photo {
+    width: 152px;
+    height: 152px;
+  }
+
+  .card-user__img {
+    width: 128px;
+    height: 128px;
+  }
+
+  .card-user__title {
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 1.25;
+  }
+
+  .card-user__subtitle {
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 1.375;
+  }
+
+  .card-user__text {
+    line-height: 1.25;
+  }
+
+  .testimonials__center .card-user__photo {
+    width: 165px;
+    height: 165px;
+    margin-bottom: 19px;
+  }
+
+  .testimonials__center .card-user__img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .testimonials__center .card-user__subtitle {
+    margin-bottom: 16px;
+  }
 }
 
 /* ------ end Testimonials section ------ */
