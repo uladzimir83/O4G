@@ -176,6 +176,12 @@ main {
   flex-direction: column;
 }
 
+@media (max-width: 1200px) {
+  .inner--column {
+    padding: 0 25px;
+  }
+}
+
 .wide-row {
   justify-content: space-between;
 }
