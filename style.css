@@ -593,6 +593,10 @@ main {
 }
 
 @media (max-width: 1365px) {
+  .header:after {
+    top: -20vw;
+  }
+
   .header-title {
     font-size: 45px;
     line-height: 1.356;
@@ -673,6 +677,7 @@ main {
 
   .header-text {
     margin-right: 3.7vw;
+    padding-top: 50px;
   }
 
   .header-media {
