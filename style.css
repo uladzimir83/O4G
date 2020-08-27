@@ -1378,8 +1378,8 @@ tr:last-child {
 @media (max-width: 1200px) {
   .section-features:before {
     right: -79px;
-    width: 70.6vw;
-    height: 70vw;
+    width: 80.6vw;
+    height: 80vw;
   }
 
   .section-features:after {
@@ -1387,15 +1387,20 @@ tr:last-child {
   }
 
   .features-table {
-    width: auto;
-    margin: 0 25px;
+    max-width: 910px;
+    margin: 0 auto;
   }
 
   .features-heading span {
+    top: -23px;
     width: 100px;
-    height: 45px;
+    height: 40px;
     font-size: 16px;
-    line-height: 45px;
+    line-height: 40px;
+  }
+
+  th.feature-heading--wide {
+    padding-left: 71px;
   }
 
   .feature-heading--wide span {
@@ -1406,6 +1411,10 @@ tr:last-child {
     padding: 20px 0 10px 72px;
     font-size: 16px;
     line-height: 1.81;
+  }
+
+  .feature-text {
+    width: 660px;
   }
 
   td {
