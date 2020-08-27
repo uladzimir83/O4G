@@ -1448,6 +1448,12 @@ tr:last-child {
   }
 }
 
+@media (max-width: 1365px) {
+  .section-boost {
+    padding: 120px 0 120px;
+  }
+}
+
 /* ------ end Boost section ------ */
 
 /* ------ Testimonials section ------ */
@@ -1624,6 +1630,58 @@ tr:last-child {
 
   .testimonials__center .card-user__subtitle {
     margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-testimonials {
+    padding: 120px 0 93px;
+  }
+
+  .testimonials-card {
+    flex: 0 0 275px;
+    min-height: 466px;
+    margin-top: -6px;
+    padding: 22px 25px 28px;
+  }
+
+  .testimonials__center {
+    flex: 0 0 325px;
+  }
+
+  .card-user__photo {
+    width: 132px;
+    height: 132px;
+  }
+
+  .card-user__img {
+    width: 106px;
+    height: 106px;
+  }
+
+  .testimonials__center .card-user__photo {
+    width: 146px;
+    height: 146px;
+  }
+
+  .testimonials__center .card-user__img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .card-user__title {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+
+  .card-user__subtitle {
+    font-size: 14px;
+    line-height: 1.214;
+  }
+
+  .card-user__text {
+    font-size: 14px;
+    line-height: 1.357;
   }
 }
 
