@@ -1017,18 +1017,6 @@ main {
   padding-bottom: 55px;
 }
 
-.section-syncing:before {
-  position: absolute;
-  top: 57px;
-  left: 128px;
-  z-index: -1;
-  content: '';
-  width: 394px;
-  height: 397px;
-  border-radius: 50%;
-  background: linear-gradient(141.81deg, #E6E9EE 5.21%, rgba(255, 255, 255, 0.1) 90.73%);
-}
-
 .section-syncing .col {
   width: 50%;
 }
@@ -1045,6 +1033,18 @@ main {
 
 .sync-img {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.sync-top .sync-col--left:before {
+  position: absolute;
+  top: -216px;
+  left: -173px;
+  z-index: -1;
+  content: '';
+  width: 394px;
+  height: 397px;
+  border-radius: 50%;
+  background: linear-gradient(141.81deg, #E6E9EE 5.21%, rgba(255, 255, 255, 0.1) 90.73%);
 }
 
 .sync-middle {
@@ -1079,13 +1079,6 @@ main {
     padding-top: 66px;
   }
 
-  .section-syncing:before {
-    top: 47px;
-    left: -18px;
-    width: 327px;
-    height: 330px;
-  }
-
   .sync-col--left {
     margin-top: 3px;
   }
@@ -1097,6 +1090,13 @@ main {
 
   .sync-media {
     margin-left: 50px;
+  }
+
+  .sync-top .sync-col--left:before {
+    top: -131px;
+    left: -128px;
+    width: 327px;
+    height: 330px;
   }
 
   .sync-middle {
@@ -1122,6 +1122,15 @@ main {
 
   .sync-bottom .sync-leading {
     padding-right: 65px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sync-top .sync-col--left:before {
+    top: -100px;
+    left: -30px;
+    width: 240px;
+    height: 240px;
   }
 }
 
@@ -1326,6 +1335,75 @@ tr:last-child {
 
   .feature-check {
     background-position: center;
+  }
+}
+
+@media (max-width: 1365px) {
+  .features-heading span {
+    font-size: 18px;
+  }
+
+  .feature-heading--wide span {
+    width: 200px;
+  }
+
+  .feature-type {
+    padding: 20px 0 3px 72px;
+    font-size: 18px;
+    line-height: 2.45;
+  }
+
+  .feature-text {
+    width: 810px;
+    padding-left: 70px;
+  }
+
+  td {
+    line-height: 2.045;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-features:before {
+    right: -79px;
+    width: 70.6vw;
+    height: 70vw;
+  }
+
+  .section-features:after {
+    left: 11px;
+  }
+
+  .features-table {
+    width: auto;
+    margin: 0 25px;
+  }
+
+  .features-heading span {
+    width: 100px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 45px;
+  }
+
+  .feature-heading--wide span {
+    width: 180px;
+  }
+
+  .feature-type {
+    padding: 20px 0 10px 72px;
+    font-size: 16px;
+    line-height: 1.81;
+  }
+
+  td {
+    line-height: 1.79;
+    font-size: 14px;
+  }
+
+  .feature-check {
+    background-size: 17px 13px;
   }
 }
 
