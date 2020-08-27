@@ -1659,14 +1659,14 @@ tr:last-child {
   }
 
   .testimonials-card {
-    flex: 0 0 275px;
+    flex: 0 0 250px;
     min-height: 466px;
     margin-top: -6px;
     padding: 22px 25px 28px;
   }
 
   .testimonials__center {
-    flex: 0 0 325px;
+    flex: 0 0 290px;
   }
 
   .card-user__photo {
