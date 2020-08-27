@@ -115,11 +115,27 @@ main {
 }
 
 @media (max-width: 1365px) {
+  html,
+  body {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
   .btn {
     width: 160px;
     height: 45px;
     font-size: 16px;
     line-height: 45px;
+  }
+
+  .section-title {
+    font-size: 28px;
+    line-height: 1.25;
+  }
+
+  .section-leading {
+    font-size: 16px;
+    line-height: 1.375;
   }
 }
 
