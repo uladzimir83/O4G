@@ -836,6 +836,64 @@ main {
     max-width: 88%;
   }
 }
+
+@media (max-width: 1365px) {
+  .section-about {
+    padding-top: 130px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-about {
+    padding-bottom: 50px;
+  }
+
+  .about-col--left:before {
+    top: 137px;
+    left: -36px;
+    width: 214px;
+    height: 219px;
+  }
+
+  .about-col--right:after {
+    bottom: -63px;
+    right: -20px;
+    width: 180px;
+    height: 184px;
+  }
+
+  .about-col--left {
+    width: 430px;
+    margin-left: calc((100% - 910px) / 2);
+    margin-top: -52px;
+  }
+
+  .about-media {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .section-about .center-col {
+    flex-direction: column;
+  }
+
+  .about-col--left {
+    width: 100%;
+    max-width: 370px;
+    margin-left: 0;
+    margin: 0 auto 50px;
+    text-align: center;
+  }
+
+  .about-leading {
+    margin-bottom: 20px;
+  }
+
+  .about-users img {
+    max-width: 95px;
+  }
+}
 /* ------ end About section ------ */
 
 /* ------ Core Functions section ------ */
@@ -923,6 +981,29 @@ main {
 
   .functions__text {
     padding: 0px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-functions {
+    padding-top: 50px;
+  }
+
+  .functions {
+    padding: 50px 25px 0;
+  }
+
+  .functions__img {
+    max-width: 140px;
+  }
+
+  .functions__item--3 .functions__img {
+    max-width: 170px;
+  }
+
+  .functions:after {
+    width: 650px;
+    height: 650px;
   }
 }
 
