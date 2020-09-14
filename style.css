@@ -683,7 +683,7 @@ main {
   .hamburger {
     position: absolute;
     top: -7px;
-    right: 25px;
+    right: 0;
     display: inline-block;
   }
 
@@ -698,6 +698,58 @@ main {
 
   .header-shape {
     bottom: -88px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    padding-bottom: 230px;
+    background-size: 100% 67%;
+  }
+
+  .header-content__inner {
+    margin-left: calc((100% - 718px) / 2);
+  }
+
+  .header-text {
+    min-width: auto;
+    max-width: 50%;
+    margin-right: 0;
+    padding-top: 88px;
+  }
+
+  .header-leading {
+    max-width: 270px;
+  }
+
+  .header-btn .btn:first-child {
+    margin-right: 6px;
+  }
+
+  .header-media {
+    margin-top: 4px;
+    margin-left: 15px;
+  }
+
+  .header-media__img {
+    max-width: 374px;
+  }
+
+  .header-shape {
+    bottom: 145px;
+    height: 100px;
+  }
+
+  .header-bottom {
+    bottom: 51px;
+    height: 260px;
+    background: linear-gradient(180.42deg, #fbcd88 39.68%, rgba(255, 226, 99, 0) 94.24%);
+  }
+
+  .header-bottom:after {
+    top: -230px;
+    height: 640px;
+    background-size: 100% 71%;
   }
 }
 
@@ -736,6 +788,12 @@ main {
   .page-nav__link {
     font-size: 16px;
     line-height: 1.375;
+  }
+}
+
+@media (max-width: 992px) {
+  .section-nav {
+    display: none;
   }
 }
 
