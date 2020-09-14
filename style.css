@@ -1296,6 +1296,56 @@ main {
   }
 }
 
+@media (max-width: 992px) {
+  .section-syncing {
+    padding-top: 37px;
+    padding-bottom: 46px;
+  }
+
+  .sync-leading {
+    padding-right: 25px;
+    line-height: 1.25;
+  }
+
+  .sync-media {
+    margin-left: 6px;
+  }
+
+  .sync-top .sync-col--left:before {
+    top: -96px;
+    left: -11px;
+    width: 180px;
+    height: 180px;
+  }
+
+  .sync-top .sync-title {
+    margin-top: -25px;
+    margin-bottom: 29px;
+  }
+
+  .sync-middle {
+    margin: -29px 0 -38px;
+    padding: 71px 0;
+  }
+
+  .sync-middle .sync-media {
+    margin: 0 5px 0 0;
+  }
+
+  .sync-middle .sync-leading {
+    padding-left: 22px;
+  }
+
+  .sync-bottom .sync-title {
+    margin-top: -23px;
+    margin-bottom: 22px;
+  }
+
+  .sync-bottom .sync-leading {
+    padding-right: 19px;
+  }
+}
+
 /* ------ end Syncing section ------- */
 
 /* ------  Features section ------ */
@@ -1401,7 +1451,7 @@ tr:nth-child(even) {
   background: linear-gradient(90deg, rgba(228, 240, 254, 0) -12.88%, #E4F0FE 51.35%, rgba(228, 240, 254, 0) 112.95%);
 }
 
-tr:last-child {
+tbody:last-of-type tr:last-child {
   height: 42px;
 }
 
@@ -1578,6 +1628,81 @@ tr:last-child {
   }
 }
 
+@media (max-width: 992px) {
+  .section-features {
+    margin-top: -11px;
+    padding-top: 57px;
+    padding-bottom: 121px;
+  }
+
+  .section-features:before {
+    right: -45px;
+    width: 85vw;
+    height: 84.5vw;
+  }
+
+  .section-features:after {
+    display: none;
+  }
+
+  .features-title {
+    margin-bottom: 58px;
+  }
+
+  .feature-table__outer {
+    padding: 0 25px;
+  }
+
+  .features-heading {
+    height: 30px;
+  }
+
+  .features-heading th {
+    border-right: 2px solid rgba(67,82,91, .1);
+  }
+  
+  th.feature-heading--wide {
+    padding-left: 50px;
+  }
+
+  .features-heading span {
+    top: -15px;
+    width: 63px;
+    height: 27px;
+    font-size: 14px;
+    line-height: 27px;
+  }
+
+  .feature-heading--wide span {
+    width: 115px;
+  }
+
+  td {
+    border-right: 2px solid rgba(67,82,91, .1);
+  }
+
+  .feature-text {
+    width: 515px;
+    padding: 3px 70px 3px 50px;
+    line-height: 1.4;
+  }
+
+  .feature-type {
+    padding: 18px 0 4px 50px;
+  }
+
+  .feature-type__first {
+    padding-top: 0;
+  }
+
+  .feature-check {
+    background-size: 12px 9px;
+  }
+
+  tbody:last-of-type tr:last-child {
+    height: 24px;
+  }
+}
 /* ------ end Features section ------ */
 
 
