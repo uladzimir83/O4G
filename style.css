@@ -929,6 +929,10 @@ main {
     padding-bottom: 50px;
   }
 
+  .about-col--right {
+    margin: 0;
+  }
+
   .about-col--left:before {
     top: 137px;
     left: -36px;
@@ -955,6 +959,11 @@ main {
 }
 
 @media (max-width: 992px) {
+  .section-about {
+    padding-bottom: 36px;
+    margin-top: -214px;
+  }
+
   .section-about .center-col {
     flex-direction: column;
   }
@@ -963,18 +972,37 @@ main {
     width: 100%;
     max-width: 370px;
     margin-left: 0;
-    margin: 0 auto 50px;
+    margin: 0 auto 30px;
     text-align: center;
   }
 
+  .about-col--left:before {
+    top: 165px;
+    left: -160px;
+    width: 240px;
+    height: 243px;
+  }
+
   .about-leading {
-    margin-bottom: 20px;
+    margin-bottom: 33px;
   }
 
   .about-users img {
     max-width: 95px;
   }
+
+  .about-col--right:after {
+    bottom: -70px;
+    right: -15px;
+    width: 198px;
+    height: 199px;
+  }
+
+  .about-img {
+    max-width: 82%;
+  }
 }
+
 /* ------ end About section ------ */
 
 /* ------ Core Functions section ------ */
@@ -1085,6 +1113,59 @@ main {
   .functions:after {
     width: 650px;
     height: 650px;
+  }
+}
+
+@media (max-width: 992px) {
+  .section-functions {
+    padding-top: 36px;
+    padding-bottom: 60px;
+  }
+
+  .functions {
+    padding: 25px 25px 0;
+  }
+
+  .functions:after {
+    width: 466px;
+    height: 466px;
+  }
+
+  .functions__item--1, .functions__item--5 {
+    margin-top: 26px;
+  }
+
+  .functions__item--2, .functions__item--4 {
+    margin-top: 164px;
+  }
+
+  .functions__item--1 {
+    margin-left: 30px;
+  }
+
+  .functions__item--2 {
+    margin-left: 43px;
+  }
+
+  .functions__item--4 {
+    margin-right: 30px;
+  }
+
+  .functions__item--5 {
+    margin-right: 35px;
+  }
+
+  .functions__img {
+    max-width: 110px;
+    margin-bottom: 9px;
+  }
+
+  .functions__item--3 .functions__img {
+    max-width: 113px;
+  }
+
+  .functions__text {
+    margin: 0 -31px;
   }
 }
 
