@@ -2495,6 +2495,82 @@ tbody:last-of-type tr:last-child {
   }
 }
 
+@media (max-width: 767px) {
+  .section-testimonials {
+    padding: 85px 0 57px;
+    background: linear-gradient(127.4deg, rgb(230, 233, 238, .57) 0.16%, rgba(255, 255, 255, 0) 29.48%);
+  }
+
+  .testimonials-title {
+    margin-bottom: 34px;
+  }
+
+  .testimonials {
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .testimonials-card {
+    min-height: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 14px 10px 10px;
+  }
+
+  .testimonials-card__user:after {
+    top: 51px;
+    width: 450px;
+    height: 450px;
+  }
+
+  .card-user__photo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+  }
+
+  .card-user__img {
+    width: 85px;
+    height: 85px;
+  }
+
+  .card-user__title {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .card-user__subtitle {
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 1.667;
+    letter-spacing: .4px;
+  }
+
+  .card-user__text {
+    font-size: 12px;
+    line-height: 1.357;
+  }
+
+  .testimonials__center {
+    padding-bottom: 8px;
+  }
+
+  .testimonials__center .card-user__photo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+  }
+
+  .testimonials__center .card-user__img {
+    width: 85px;
+    height: 85px;
+  }
+
+  .testimonials__center .card-user__subtitle {
+    margin-bottom: 8px;
+  }
+}
+
 /* ------ end Testimonials section ------ */
 
 /* ------ News section ------ */
@@ -2601,7 +2677,7 @@ tbody:last-of-type tr:last-child {
   .news-card__info {
     flex: 1 0 288px;
   }
-  
+
   .news-card__title {
     margin-top: 1px;
     margin-bottom: 15px;
@@ -2698,6 +2774,57 @@ tbody:last-of-type tr:last-child {
 
   .news-card__offer {
     margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-news {
+    padding: 45px 0 180px;
+  }
+
+  .news-title {
+    margin-bottom: 35px;
+  }
+
+  .news-card {
+    display: block;
+    width: 100%;
+    min-height: auto;
+    margin-bottom: 35px;
+  }
+
+  .news-card:after {
+    display: none;
+  }
+
+  .news-card__info {
+    padding: 8px 0 3px;
+  }
+
+  .news-card__title {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+
+  .news-card__date {
+    font-size: 14px;
+    line-height: 1.357;
+  }
+
+  .news-card__content {
+    padding: 25px 10px 22px;
+  }
+
+  .news-card__offer {
+    font-size: 14px;
+    line-height: 1.357;
+    text-align: center;
+  }
+
+  .news-card__text {
+    font-size: 12px;
+    line-height: 1.333;
+    text-align: center;
   }
 }
 
