@@ -1997,7 +1997,7 @@ tbody:last-of-type tr:last-child {
   .features-heading th {
     border-right: 2px solid rgba(67,82,91, .1);
   }
-  
+
   th.feature-heading--wide {
     padding-left: 50px;
   }
@@ -2038,6 +2038,72 @@ tbody:last-of-type tr:last-child {
 
   tbody:last-of-type tr:last-child {
     height: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-features {
+    padding-bottom: 117px;
+  }
+
+  .section-features:before {
+    right: -25px;
+    width: 69.5vw;
+    height: 69.5vw;
+  }
+
+  .features-title {
+    margin-bottom: 39px;
+  }
+
+  .feature-table__outer {
+    padding: 0;
+  }
+
+  .features-heading {
+    height: 28px;
+  }
+
+  th.feature-heading--wide {
+    padding-left: 20px;
+  }
+
+  .features-heading span {
+    width: 45px;
+    height: 25px;
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .feature-heading--wide span {
+    width: 80px;
+  }
+
+  .features-heading th:last-child {
+    text-align: left;
+  }
+
+  .feature-type {
+    padding: 18px 0 8px 20px;
+    font-size: 14px;
+  }
+
+  .feature-type__first {
+    padding-top: 0;
+  }
+
+  td {
+    font-size: 12px;
+  }
+
+  td:last-child {
+    padding: 0 3px 0 55px;
+    background-position-x: 16px;
+  }
+
+  .feature-text {
+    width: 241px;
+    padding: 2px 12px 2px 20px;
   }
 }
 /* ------ end Features section ------ */
@@ -2101,6 +2167,29 @@ tbody:last-of-type tr:last-child {
   .boost-btn .btn:first-child {
     margin-right: 14px;
     margin-left: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-boost {
+    padding: 44px 0 60px;
+    background: linear-gradient(89.3deg, rgba(89, 139, 240, 0.7) 56.99%, rgba(116, 182, 254, 0) 117%);
+  }
+
+  .boost-title {
+    max-width: 470px;
+    margin-bottom: 31px;
+    line-height: 1.33;
+  }
+
+  .boost-btn {
+    text-align: center;
+  }
+
+  .boost-btn .btn:first-child {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 13px;
   }
 }
 
