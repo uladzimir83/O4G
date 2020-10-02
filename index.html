@@ -41,8 +41,8 @@
                     </span>
                 </div>
             </div>
-            <div class="header-dev__mobile"></div>
-            <div class="header-nav">
+            <div class="header-nav__fill"></div>
+            <div class="header-nav" id="header-nav">
                 <div class="container">
                     <div class="inner wide-row center-col">
                         <div class="logo">
@@ -57,7 +57,7 @@
                         </button>
                     </div>
                 </div>
-                <ul class="menu">
+                <ul class="menu" >
                     <li class="menu__item">
                         <a href="#" class="menu__link">Free download</a>
                     </li>
@@ -85,8 +85,8 @@
                     <h1 class="header-title">Outlook4Gmail</h1>
                     <p class="header-leading">Sync your Google Calendars and Contacts with Outlook</p>
                     <div class="header-btn">
-                        <a href="#" class="btn btn--blue">Download Now</a>
-                        <a href="#" class="btn btn--orange">Buy Now</a>
+                        <a href="#" class="btn btn--blue"><span class="btn__inner">Download Now</span></a>
+                        <a href="#" class="btn btn--orange"><span class="btn__inner">Buy Now</span></a>
                     </div>
                 </div>
                 <div class="header-media">
@@ -102,7 +102,7 @@
                         <stop offset="100%" style="stop-color:rgb(230, 231, 239);stop-opacity:1;" />
                     </linearGradient>
                 </defs>
-                <path d="M-0.27,72.53 C148.14,-25.16 372.17,263.97 503.27,1.48 L500.27,-1.47 L0.00,0.00 Z" fill="url(#gradient)"></path>
+                <path d="M-0.27,72.53 C148.14,-25.16 372.17,263.97 540.27,1.48 L500.27,-1.47 L0.00,0.00 Z" fill="url(#gradient)"></path>
             </svg>
         </div>
         <div class="header-shape__mobile">
@@ -119,19 +119,20 @@
         <div class="header-bottom"></div>
     </header>
     <main>
-        <section class="section-nav">
+        <section class="section-nav js-scroll-active" id="section-nav">
             <div class="container">
                 <ul class="page-nav">
-                    <li class="page-nav__item"><a href="#" class="page-nav__link">About</a></li>
-                    <li class="page-nav__item"><a href="#" class="page-nav__link">Core functions</a></li>
-                    <li class="page-nav__item"><a href="#" class="page-nav__link">Synchronization</a></li>
-                    <li class="page-nav__item"><a href="#" class="page-nav__link">Features</a></li>
-                    <li class="page-nav__item"><a href="#" class="page-nav__link">Testimonials</a></li>
-                    <li class="page-nav__item"><a href="#" class="page-nav__link">Latest news</a></li>
+                    <li class="page-nav__item"><a href="#section-about" class="page-nav__link">About</a></li>
+                    <li class="page-nav__item"><a href="#section-functions" class="page-nav__link">Core functions</a></li>
+                    <li class="page-nav__item"><a href="#section-syncing" class="page-nav__link">Synchronization</a></li>
+                    <li class="page-nav__item"><a href="#section-features" class="page-nav__link">Features</a></li>
+                    <li class="page-nav__item"><a href="#section-testimonials" class="page-nav__link">Testimonials</a></li>
+                    <li class="page-nav__item"><a href="#section-news" class="page-nav__link">Latest news</a></li>
                 </ul>
         </div>
         </section>
-        <section class="section-about">
+        <section class="section-about js-scroll-active" id="section-about">
+            <div class="js-scroll-target"></div>
             <div class="inner center-col">
                 <div class="col about-col--left">
                     <h2 class="section-title">About Outlook4Gmail</h2>
@@ -149,7 +150,8 @@
                 </div>
             </div>
         </section>
-        <section class="section-functions">
+        <section class="section-functions js-scroll-active" id="section-functions">
+            <div class="js-scroll-target"></div>
             <div class="container">
                 <h2 class="section-title functions-title">Core Functions</h2>
                 <div class="functions">
@@ -176,7 +178,8 @@
                 </div>
             </div>
         </section>
-        <section class="section-syncing">
+        <section class="section-syncing js-scroll-active" id="section-syncing">
+            <div class="js-scroll-target"></div>
             <div class="sync-top">
                 <div class="container">
                     <div class="inner wide-row center-col">
@@ -223,7 +226,8 @@
                 </div>
             </div>
         </section>
-        <section class="section-features">
+        <section class="section-features js-scroll-active" id="section-features">
+            <div class="js-scroll-target"></div>
             <div class="container">
                 <h2 class="section-title features-title">Features</h2>
                 <div class="feature-table__outer">
@@ -387,18 +391,19 @@
                 </div>
             </div>
         </section>
-        <section class="section-boost">
+        <section class="section-boost js-scroll-active" id="section-boost">
             <div class="container">
                 <div class="inner--column center-col">
                     <h2 class="section-title boost-title">Stay Synchronized and Boost Your Productivity with Outlook4Gmail</h2>
                     <div class="boost-btn">
-                        <a href="#" class="btn btn--blue">Download Now</a>
-                        <a href="#" class="btn btn--orange">Buy Now</a>
+                        <a href="#" class="btn btn--blue btn--stroke"><span class="btn__inner">Download Now</span></a>
+                        <a href="#" class="btn btn--orange btn--stroke"><span class="btn__inner">Buy Now</span></a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-testimonials">
+        <section class="section-testimonials js-scroll-active" id="section-testimonials">
+            <div class="js-scroll-target"></div>
             <div class="container">
                 <div class="inner--column center-col">
                     <h2 class="section-title testimonials-title">Testimonials</h2>
@@ -435,12 +440,13 @@
                         </div>
                     </div>
                     <div class="testimonials-btn">
-                        <a href="#" class="btn btn--blue">Other testimonials</a>
+                        <a href="#" class="btn btn--blue"><span class="btn__inner">Other testimonials</span></a>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-news">
+        <section class="section-news js-scroll-active" id="section-news">
+            <div class="js-scroll-target"></div>
             <div class="container">
                 <div class="inner--column center-col">
                     <h2 class="section-title news-title">Latest news</h2>
@@ -455,7 +461,7 @@
                         </div>
                     </div>
                     <div class="news-btn">
-                        <a href="#" class="btn btn--blue">Other news</a>
+                        <a href="#" class="btn btn--blue"><span class="btn__inner">Other news</span></a>
                     </div>
                 </div>
             </div>
@@ -473,7 +479,7 @@
                     <div class="col contact-col--right">
                         <p>Subscribe for newsletter</p>
                         <div class="contact-btn">
-                            <a href="#" class="btn btn--blue">Sign up</a>
+                            <a href="#" class="btn btn--blue"><span class="btn__inner">Sign up</span></a>
                         </div>
                     </div>
                 </div>
