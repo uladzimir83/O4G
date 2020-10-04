@@ -2424,7 +2424,8 @@ tbody:last-of-type tr:last-child {
     line-height: 1.33;
   }
 
-  .boost-btn {
+  .boost-btn .btn {
+    display: block;
     text-align: center;
   }
 
