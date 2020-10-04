@@ -1145,6 +1145,14 @@ section {
   top: 60px;
 }
 
+/* for mackbook and other  retina displays */
+@media (min-width: 1921px) {
+  .about-media:after {
+    max-width: 1400px;
+  }
+}
+/* end for mackbook and other  retina displays */
+
 @media (max-width: 1599px) {
   .section-about {
     padding-top: 177px;
@@ -2031,6 +2039,21 @@ tbody:last-of-type tr:last-child {
 .section-features .js-scroll-target {
   top: 70px;
 }
+
+/* for mackbook and other  retina displays */
+@media (min-width: 1921px) {
+  .section-features:before {
+    right: 15px;
+    width: 64vw;
+    height: 64.65vw;
+  }
+
+  .section-features:after {
+    left: auto;
+    right: calc(100vw - 29vw);
+  }
+}
+/* end for mackbook and other  retina displays */
 
 @media (max-width: 1599px) {
   .section-features {
@@ -3157,6 +3180,14 @@ tbody:last-of-type tr:last-child {
 .contact-shape__mobile {
   display: none;
 }
+
+/* for mackbook and other  retina displays */
+@media (min-width: 1921px) {
+  .section-contact:before {
+    bottom: 12px;
+  }
+}
+/* end for mackbook and other  retina displays */
 
 @media (max-width: 1599px) {
   .section-contact {
