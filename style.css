@@ -435,7 +435,7 @@ section {
 
 .menu {
   position: absolute;
-  top: 19px;
+  top: 20px;
   right: calc((100% - 1320px) / 2);
   z-index: 2;
   display: flex;
@@ -443,6 +443,7 @@ section {
 }
 
 .menu__item {
+  position: relative;
   margin-right: 71px;
 }
 
@@ -461,6 +462,59 @@ section {
 
 .menu__link:hover {
   color: #1356ee;
+}
+
+@media (min-width: 993px) {
+
+  .header-nav.is-scrolled .lang__list {
+    top: 42px;
+  }
+
+  .header-nav.is-scrolled .lang__list:before {
+    top: -26px;
+    height: 26px;
+  }
+
+  .lang__list {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    opacity: 0;
+    visibility: hidden;
+    padding: 10px 36px;
+    transform: translateX(-50%);
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: opacity .3s, visibility .3s;
+  }
+
+  .menu__item__lang:hover .lang__list {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .lang__list:before {
+    position: absolute;
+    left: 0;
+    top: -8px;
+    content: '';
+    width: 100%;
+    height: 8px;
+  }
+
+  .lang__item:first-child {
+    margin-bottom: 8px;
+  }
+
+  .lang__link {
+    font-weight: 600;
+    color: #494376;
+    transition: color .3s;
+  }
+
+  .lang__link:hover {
+    color: #1356ee;
+  }
 }
 
 /* header menu burger icon */
