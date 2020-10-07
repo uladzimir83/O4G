@@ -712,6 +712,13 @@ section {
     bottom: calc(100vw - 104vw);
     width: 65vw;
   }
+
+  .header-bottom:after {
+    top: -200px;
+    height: 829px;
+    background-size: 100% 84%;
+    background-position: 0 63px;
+  }
 }
 /* end for mackbook and other  retina displays */
 
