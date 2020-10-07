@@ -3788,3 +3788,527 @@ tbody:last-of-type tr:last-child {
   }
 }
 /* end Features template */
+
+/* Download template */
+
+.version-title {
+  margin-bottom: 22px;
+  font-family: Quicksand;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.230;
+  color: #494376;
+}
+
+.version-text {
+  margin-bottom: 30px;
+  font-family: Nunito;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #646084;
+}
+
+.main__download .section-about {
+  padding-top: 78px;
+}
+
+.download-row__title {
+  margin-bottom: 93px;
+}
+
+.main__download .about-col--left {
+  width: 517px;
+  margin-top: -7px;
+}
+
+.main__download .about-col--left:before {
+  top: 124px;
+}
+
+.main__download .about-col--right:after {
+  bottom: -139px;
+  right: -129px;
+}
+
+.main__download .about-media {
+  margin-left: -6px;
+}
+
+.download-row__content {
+  margin-bottom: 51px;
+}
+
+.section-keys {
+  padding: 127px 0 40px;
+}
+
+.keys-row__title {
+  margin-bottom: 25px;
+}
+
+.keys__list {
+  max-width: 1320px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.keys__item {
+  position: relative;
+  padding: 0 90px 0 143px;
+  line-height: 2.7778;
+}
+
+.keys__item:first-child:before,
+.keys__item:last-child:before {
+  display: none;
+}
+
+.keys__item:first-child {
+  height: 50px;
+}
+
+.keys__item:last-child {
+  padding: 18px 0 38px 0;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.6px;
+}
+
+.keys__item:before {
+  position: absolute;
+  top: 15px;
+  left: 86px;
+  content: '';
+  width: 26px;
+  height: 20px;
+  background: url('img/check.png') no-repeat;
+}
+
+.keys__item:nth-child(even) {
+  background: linear-gradient(90deg, rgba(228, 240, 254, 0) -12.88%, #E4F0FE 51.35%, rgba(228, 240, 254, 0) 112.95%);
+}
+
+.download-terms {
+  margin-top: -110px;
+  padding: 173px 0 176px 0;
+  background: linear-gradient(89.3deg, rgba(89, 139, 240, 0.7) 61.99%, rgba(116, 182, 254, 0.2) 100%);
+}
+
+.download-terms__text {
+  max-width: 1040px;
+  margin: 0 auto;
+  font-family: Quicksand, sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.27;
+  word-spacing: 1px;
+  color: #fff;
+}
+
+.download-terms__link {
+  text-decoration: underline;
+  color: #f8ebdb;
+}
+
+.section-faq {
+  margin-bottom: 200px;
+  padding: 175px 0 70px;
+}
+
+.faq-row__title {
+  margin-bottom: 82px;
+}
+
+.faq__wrapper {
+  flex-wrap: wrap;
+  margin: 0 -34px;
+  width: calc(100% + 68px);
+}
+
+.faq__card {
+  flex: 1 1 28%;
+  margin: 0 34px 60px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.faq__card__header {
+  padding: 36px 36px 30px;
+  background: linear-gradient(90deg, #FBB188 -68.92%, #FFEAC7 100%);
+  border-radius: 10px;
+}
+
+.faq__card__title {
+  font-family: Quicksand, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.26;
+  color: #494376;
+}
+
+.faq__card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 30px 25px;
+}
+
+.faq__card__text {
+  margin-bottom: 39px;
+  line-height: 1.35;
+}
+
+.faq__card__link {
+  font-size: 24px;
+  line-height: 1;
+  text-decoration: underline;
+}
+
+.faq__text {
+  max-width: 857px;
+  margin: 0 auto;
+  font-family: Quicksand, sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.7px;
+  text-align: center;
+}
+
+.faq__text__link {
+  text-decoration: underline;
+  color: #3f5de5;
+}
+
+@media (max-width: 1599px) {
+  .section-keys {
+    padding: 70px 0 40px;
+  }
+
+  .main__download .about-media:after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    content: '';
+    transform: translateX(-50%);
+    content: '';
+    width: 69.2vw;
+    height: 70px;
+    background: url('img/laptop_shadow.png') no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+  }
+
+  .main__download .about-col--right:after {
+    bottom: -74px;
+    right: -19px;
+  }
+
+  .download-terms {
+    margin-top: -95px;
+    padding: 150px 0;
+  }
+
+  .section-faq {
+    padding: 140px 0 70px;
+  }
+
+  .faq__wrapper {
+    margin: 0 -30px;
+    width: calc(100% + 60px);
+  }
+
+  .faq__card {
+    margin: 0 30px 60px;
+  }
+
+  .faq__card__header {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 1365px) {
+  .main__download .section-about {
+    padding-bottom: 40px;
+  }
+
+  .download-row__title {
+    margin-bottom: 65px;
+  }
+
+  .version-title {
+    font-size: 22px;
+  }
+
+  .version-text {
+    font-size: 18px;
+  }
+
+  .section-keys {
+    padding: 50px 0 40px;
+  }
+
+  .faq__card__title {
+    font-size: 26px;
+  }
+
+  .faq__text {
+    font-size: 18px;
+  }
+
+  .download-terms {
+    margin-top: -90px;
+    padding: 110px 0;
+  }
+
+  .section-faq {
+    margin-bottom: 130px;
+    padding: 90px 0 70px;
+  }
+
+  .faq__card__link {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .version-title {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  .version-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .keys__item {
+    padding: 0 20px 0 90px;
+    font-size: 14px;
+    line-height: 2.4;
+  }
+
+  .keys__item:first-child {
+    height: 33px;
+  }
+
+  .keys__item:before {
+    top: 10px;
+    left: 55px;
+    width: 20px;
+    height: 14px;
+    background-size: cover;
+  }
+
+  .keys__item:last-child {
+    padding: 14px 0 24px 0;
+    font-size: 18px;
+  }
+
+  .download-terms__text {
+    max-width: 880px;
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
+  .download-terms {
+    margin-top: -65px;
+    padding: 80px 0;
+  }
+
+  .section-faq {
+    margin-bottom: 85px;
+    padding: 70px 0;
+  }
+
+  .faq-row__title {
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main__download .section-about {
+    padding-top: 40px;
+    margin-top: 0;
+  }
+
+  .download-row__title {
+    margin-bottom: 20px;
+  }
+
+  .main__download .about-col--left {
+    width: 500px;
+    max-width: none;
+    margin: 0 auto 10px;
+  }
+
+  .main__download .about-media:after {
+    width: 107.2vw;
+    height: 66px;
+    opacity: 0.7;
+  }
+
+  .download-row__content {
+    margin-bottom: 40px;
+  }
+
+  .download-terms__text {
+    max-width: 610px;
+    font-size: 20px;
+  }
+
+  .faq__wrapper {
+    margin: 0 -20px;
+    width: calc(100% + 40px);
+  }
+
+  .faq__card {
+    margin: 0 20px 40px;
+    flex: 1 1 29%;
+  }
+
+  .faq__card__header {
+    padding: 20px 30px;
+  }
+
+  .faq__card__title {
+    font-size: 24px;
+  }
+
+  .faq__card__text {
+    margin-bottom: 25px;
+  }
+
+  .faq__card__link {
+    font-size: 20px;
+  }
+
+  .faq__text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .download-row__title {
+    margin-bottom: 0px;
+  }
+  
+  .main__download .section-about {
+    padding-bottom: 20px;
+  }
+
+  .version-sha {
+    word-break: break-all;
+  }
+
+  .main__download .about-col--left {
+    width: 100%;
+  }
+
+  .main__download .about-media {
+    margin-left: 0;
+  }
+
+  .main__download .about-img {
+    max-width: none;
+    width: 100vw;
+  }
+
+  .main__download .about-media:after {
+    height: 47px;
+    opacity: 0.3;
+  }
+
+  .section-keys {
+    padding: 30px 0 40px;
+  }
+
+  .keys-row__title {
+    margin-bottom: 0;
+  }
+
+  .keys-row__list {
+    padding: 0;
+  }
+
+  .keys__item {
+    padding: 12px 20px 12px 40px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .keys__item:first-child {
+    height: 43px;
+  }
+
+  .keys__item:before {
+    top: 15px;
+    left: 12px;
+    width: 16px;
+    height: 12px;
+  }
+
+  .keys__item:last-child {
+    padding: 14px 85px 24px;
+    font-size: 16px;
+  }
+
+  .download-terms {
+    margin-top: -45px;
+    padding: 50px 0;
+  }
+
+  .download-terms__text {
+    font-size: 18px;
+  }
+
+  .section-faq {
+    padding: 30px 0;
+  }
+
+  .faq-row__title {
+    margin-bottom: 0px;
+  }
+
+  .faq__wrapper {
+    margin: 0 -15px;
+    width: calc(100% + 30px);
+  }
+
+  .faq__card {
+    margin: 0 15px 30px;
+    flex: 1 1 30%;
+  }
+
+  .faq__card__header {
+    padding: 15px 30px;
+  }
+
+  .faq__card__title {
+    font-size: 20px;
+  }
+
+  .faq__card__link {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .faq__wrapper {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .faq__card {
+    margin: 0 auto 30px;
+    flex: 1 1 100%;
+    max-width: 400px;
+  }
+}
+/* end Download template */
