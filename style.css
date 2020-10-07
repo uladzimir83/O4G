@@ -3624,3 +3624,24 @@ tbody:last-of-type tr:last-child {
 }
 
 /* ------ end Footer ------ */
+
+/* styles for inner pages */
+
+.header__inner.header:after {
+  display: none;
+}
+
+.header__inner .header-nav {
+  background-color: #fff;
+}
+
+.section-contact.section-contact__inner {
+  margin: 0;
+}
+
+.section-contact.section-contact__inner:before,
+.section-contact.section-contact__inner:after {
+  display: none;
+}
+
+/* end styles for inner pages */
