@@ -4352,3 +4352,308 @@ tbody:last-of-type tr:last-child {
   }
 }
 /* end Download template */
+
+/* Purchase template */
+
+.section-pricing {
+  padding: 60px 0 171px;
+  background: linear-gradient(-90.6deg, #E6E9EE 0.16%, rgba(255, 255, 255, 0) 62.48%);
+}
+
+.purchase-title {
+  padding: 78px 0 30px 0;
+  background-color: #fff;
+}
+
+.purchase__cards {
+  position: relative;
+  margin-bottom: 18px;
+}
+
+.purchase__cards:before {
+  position: absolute;
+  top: 155px;
+  left: -156px;
+  content: '';
+  width: 378px;
+  height: 375px;
+  border-radius: 50%;
+  background: linear-gradient(72.94deg, #8BAEF5 -34.63%, rgba(139, 174, 245, 0) 58.32%);
+}
+
+.purchase__cards .offer__card__header {
+  padding: 51px 36px 52px;
+}
+
+.purchase__cards .offer__card__body {
+  padding: 54px 30px 55px;
+}
+
+.offer__card__price {
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 1.2;
+}
+
+.offer__card__currency {
+  font-size: 30px;
+}
+
+.offer__card__type {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.section-pricing .plain__text {
+  margin-bottom: 30px;
+  letter-spacing: 0.1px;
+}
+
+.section-pricing .plain__text:last-child {
+  margin-bottom: 0;
+}
+
+.section-pricing .btn-row {
+  margin: 72px auto 77px;
+}
+
+.section-refunds {
+  padding: 177px 0 180px;
+  background: linear-gradient(-90deg, rgba(89, 139, 240, 0.7) 44.11%, rgba(116, 184, 254, 0) 148.88%);
+}
+
+.section-refunds:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.section-refunds .section-title {
+  margin-bottom: 31px;
+  color: #fff;
+}
+
+.refunds-title {
+  margin: 26px 0 15px;
+  font-family: Quicksand, sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.2307;
+  text-align: center;
+  color: #fff;
+}
+
+.section-refunds .plain__text {
+  max-width: 1070px;
+  letter-spacing: 0.1px;
+  color: #fff;
+}
+
+.section-affiliate {
+  margin-bottom: 260px;
+  padding: 147px 0;
+  z-index: -2;
+}
+
+.section-affiliate:before {
+  position: absolute;
+  bottom: -14%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  width: 1135px;
+  height: 1135px;
+  content: '';
+  border-radius: 50%;
+  background: linear-gradient(166.01deg, rgba(255, 255, 255, 0.05) 43.29%, #FBB188 96.32%);
+}
+
+.section-affiliate .container:after {
+  z-index: -2;
+  position: absolute;
+  bottom: -187px;
+  right: -111px;
+  content: '';
+  width: 177px;
+  height: 177px;
+  border-radius: 50%;
+  background: linear-gradient(270deg, #E6E9EE 12.81%, rgba(255, 255, 255, 0.1) 100%);
+}
+
+.section-affiliate .section-title {
+  margin-bottom: 31px;
+}
+
+.section-affiliate .plain__text {
+  max-width: 660px;
+  letter-spacing: 0.1px;
+}
+
+@media (max-width: 1599px) {
+  .section-pricing {
+    padding: 60px 0 150px;
+  }
+
+  .section-refunds {
+    padding: 150px 0;
+  }
+}
+
+@media (max-width: 1365px) {
+  .section-pricing {
+    padding: 60px 0 110px;
+  }
+  
+  .section-refunds {
+    padding: 110px 0;
+  }
+
+  .section-affiliate {
+    padding: 110px 0;
+  }
+
+  .section-affiliate:before {
+    width: 835px;
+    height: 835px;
+  }
+
+  .section-affiliate .container:after {
+    right: -25px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .cards__wrapper.purchase__cards {
+    margin: 0 -15px;
+    width: calc(100% + 30px);
+  }
+
+  .purchase__cards .offer__card {
+    flex: 1 1 27%;
+    margin: 0 15px 60px;
+  }
+
+  .purchase__cards .offer__card__header {
+    padding: 30px;
+  }
+
+  .purchase__cards .offer__card__body {
+    padding: 45px 30px 45px;
+  }
+
+  .offer__card__price {
+    font-size: 32px;
+  }
+
+  .offer__card__type {
+    font-size: 20px;
+  }
+
+  .section-pricing .header-btn {
+    margin: 50px 0;
+  }
+
+  .section-pricing {
+    padding: 60px 0 80px;
+  }
+
+  .section-refunds {
+    padding: 80px 0;
+  }
+
+  .section-affiliate {
+    margin-bottom: 200px;
+    padding: 80px 0;
+  }
+
+  .section-affiliate .plain__text {
+    max-width: 460px;
+  }
+}
+
+@media (max-width: 992px) {
+  .purchase-title {
+    padding: 40px 0 0 0;
+  }
+
+  .purchase__cards .offer__card {
+    margin: 0 15px 40px;
+  }
+
+  .offer__card__title {
+    font-size: 22px;
+  }
+
+  .offer__card__price {
+    font-size: 28px;
+  }
+
+  .offer__card__type {
+    font-size: 18px;
+  }
+
+  .section-pricing .header-btn {
+    margin: 30px 0;
+  }
+
+  .refunds-title {
+    font-size: 22px;
+  }
+
+  .section-refunds .plain__text {
+    max-width: 655px;
+  }
+
+  .section-affiliate .plain__text {
+    max-width: 380px;
+  }
+
+  .section-affiliate:before {
+    width: 700px;
+    height: 700px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-pricing {
+    padding: 50px 0;
+  }
+
+  .purchase__cards:before {
+    display: none;
+  }
+
+  .cards__wrapper.purchase__cards {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .purchase__cards .offer__card {
+    flex: 1 1 100%;
+    max-width: 400px;
+    margin: 0 auto 24px;
+  }
+
+  .section-pricing .btn-row {
+    margin: 0 auto 30px;
+  }
+
+  .section-refunds {
+    padding: 50px 0;
+  }
+
+  .section-affiliate {
+    margin-bottom: 150px;
+    padding: 50px 0;
+  }
+
+  .section-affiliate .container:after {
+    display: none;
+  }
+}
+/* end Purchase template */
