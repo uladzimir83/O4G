@@ -4758,7 +4758,7 @@ tbody:last-of-type tr:last-child {
 }
 
 .main__manual .sync-middle {
-  margin: 37px 0 0;
+  margin: 70px 0 0;
   padding: 79px 0 70px;
 }
 
@@ -5068,6 +5068,7 @@ tbody:last-of-type tr:last-child {
 
   .calendar-sync .sync-col--right {
     display: flex;
+    justify-content: center;
     align-items: center;
   }
 
@@ -5101,6 +5102,10 @@ tbody:last-of-type tr:last-child {
 }
 
 @media (max-width: 992px) {
+  .dev-logo {
+    margin-left: 6vw;
+  }
+
   .main__manual .text-media {
     padding: 40px 0;
   }
