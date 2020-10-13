@@ -4710,6 +4710,10 @@ tbody:last-of-type tr:last-child {
   padding-top: 55px;
 }
 
+.section-nav.is-scroll {
+  height: 101px;
+}
+
 .manual-nav .page-nav {
   max-width: 1320px;
   align-items: center;
