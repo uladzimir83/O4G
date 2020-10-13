@@ -3680,11 +3680,6 @@ tbody:last-of-type tr:last-child {
   text-align: center;
 }
 
-.plain__text--left {
-  max-width: none;
-  text-align: left;
-}
-
 .plain__link {
   text-decoration: underline;
   color: #3f5de5;
@@ -3885,7 +3880,7 @@ tbody:last-of-type tr:last-child {
   color: #646084;
 }
 
-.main__download .section-about {
+.main__download .text-media {
   padding-top: 78px;
 }
 
@@ -3893,21 +3888,21 @@ tbody:last-of-type tr:last-child {
   margin-bottom: 93px;
 }
 
-.main__download .about-col--left {
+.main__download .text-media__left {
   width: 517px;
   margin-top: -7px;
 }
 
-.main__download .about-col--left:before {
+.main__download .text-media__left:before {
   top: 124px;
 }
 
-.main__download .about-col--right:after {
+.main__download .text-media__right:after {
   bottom: -139px;
   right: -129px;
 }
 
-.main__download .about-media {
+.main__download .text-media__img {
   margin-left: -6px;
 }
 
@@ -4049,7 +4044,7 @@ tbody:last-of-type tr:last-child {
     padding: 70px 0 40px;
   }
 
-  .main__download .about-media:after {
+  .main__download .text-media__img:after {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -4064,7 +4059,7 @@ tbody:last-of-type tr:last-child {
     z-index: -1;
   }
 
-  .main__download .about-col--right:after {
+  .main__download .text-media__right:after {
     bottom: -74px;
     right: -19px;
   }
@@ -4093,7 +4088,7 @@ tbody:last-of-type tr:last-child {
 }
 
 @media (max-width: 1365px) {
-  .main__download .section-about {
+  .main__download .text-media {
     padding-bottom: 40px;
   }
 
@@ -4191,7 +4186,7 @@ tbody:last-of-type tr:last-child {
 }
 
 @media (max-width: 992px) {
-  .main__download .section-about {
+  .main__download .text-media {
     padding-top: 40px;
     margin-top: 0;
   }
@@ -4200,13 +4195,13 @@ tbody:last-of-type tr:last-child {
     margin-bottom: 20px;
   }
 
-  .main__download .about-col--left {
+  .main__download .text-media__left {
     width: 500px;
     max-width: none;
     margin: 0 auto 10px;
   }
 
-  .main__download .about-media:after {
+  .main__download .text-media__img:after {
     width: 107.2vw;
     height: 66px;
     opacity: 0.7;
@@ -4256,8 +4251,8 @@ tbody:last-of-type tr:last-child {
   .download-row__title {
     margin-bottom: 0px;
   }
-  
-  .main__download .section-about {
+
+  .main__download .text-media {
     padding-bottom: 20px;
   }
 
@@ -4265,20 +4260,20 @@ tbody:last-of-type tr:last-child {
     word-break: break-all;
   }
 
-  .main__download .about-col--left {
+  .main__download .text-media__left {
     width: 100%;
   }
 
-  .main__download .about-media {
+  .main__download .text-media__img {
     margin-left: 0;
   }
 
-  .main__download .about-img {
+  .main__download .media__img {
     max-width: none;
     width: 100vw;
   }
 
-  .main__download .about-media:after {
+  .main__download .text-media__img:after {
     height: 47px;
     opacity: 0.3;
   }
@@ -4525,7 +4520,7 @@ tbody:last-of-type tr:last-child {
   .section-pricing {
     padding: 60px 0 110px;
   }
-  
+
   .section-refunds {
     padding: 110px 0;
   }
