@@ -88,48 +88,111 @@
             </div>
         </div>
     </header>
-    <main>
-        <section class="section-about" id="section-about">
-            <div class="inner--column center-col download-row__title">
-                <h2 class="section-title">Free Download</h2>
+    <main class="main__manual">
+        <section class="text-media" id="section-about">
+            <div class="inner--column center-col">
+                <h2 class="section-title">Manual</h2>
             </div>
             <div class="inner center-col">
-                <div class="col about-col--left">
-                    <p class="plain__text plain__text--left">
-                        Outlook4Gmail is an add-in, so there is no real start or exit. It loads when Outlook starts and will create its own ribbon with buttons or menu item and a toolbar (for Outlook 2007 or earlier versions). Free Outlook4Gmail version can only sync Gmail contacts with Outlook. If you want to sync Outlook Calendar with Google Calendar you have to purchase the license or try our free <a class="plain__link" href="#">7-day trial version</a>, full-featured one.
+                <div class="col text-media__left">
+                    <p class="section-leading">
+                        Outlook4Gmail is an add-in, so there is no real start or exit. It loads when Outlook starts and will create its own ribbon with buttons or menu item and a toolbar (for Outlook 2007 or earlier versions). Free Outlook4Gmail version can only sync Gmail contacts with Outlook. If you want to sync Outlook Calendar with Google Calendar you have to purchase the license or try our free <a href="#">7-day trial version</a>, full-featured one.
                     </p>
                 </div>
-                <div class="col about-col--right">
-                    <div class="about-media">
-                        <img class="about-img" src="../img/laptop_manual.png" alt="laptop with Outlook4Gmail">
+                <div class="col text-media__right">
+                    <div class="text-media__img">
+                        <img class="media__img" src="../img/laptop_manual.png" alt="laptop with Outlook4Gmail">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-nav js-scroll-active" id="section-nav">
+        <section class="section-nav js-scroll-active manual-nav" id="section-nav">
             <div class="container">
                 <ul class="page-nav">
-                    <li class="page-nav__item"><a href="#section-about" class="page-nav__link">How to Sync my Contacts</a></li>
-                    <li class="page-nav__item"><a href="#section-functions" class="page-nav__link">Video “How to Sync my Contacts”</a></li>
-                    <li class="page-nav__item"><a href="#section-syncing" class="page-nav__link">Filters for Contacts</a></li>
-                    <li class="page-nav__item"><a href="#section-features" class="page-nav__link">How to Sync my Calendars</a></li>
-                    <li class="page-nav__item"><a href="#section-testimonials" class="page-nav__link">Video “How to Sync my Calendar”</a></li>
-                    <li class="page-nav__item"><a href="#section-news" class="page-nav__link">Additional options</a></li>
+                    <li class="page-nav__item"><a href="#contact-sync" class="page-nav__link">How to Sync my Contacts</a></li>
+                    <li class="page-nav__item"><a href="#video-contact" class="page-nav__link">Video “How to Sync my Contacts”</a></li>
+                    <li class="page-nav__item"><a href="#filter-contact" class="page-nav__link">Filters for Contacts</a></li>
+                    <li class="page-nav__item"><a href="#calendar-sync" class="page-nav__link">How to Sync my Calendars</a></li>
+                    <li class="page-nav__item"><a href="#video-calendar" class="page-nav__link">Video “How to Sync my Calendar”</a></li>
+                    <li class="page-nav__item"><a href="#add-sync" class="page-nav__link">Additional options</a></li>
                 </ul>
             </div>
         </section>
-        <section class="section-syncing js-scroll-active" id="section-syncing">
+        <section class="section-syncing js-scroll-active contact-sync" id="contact-sync">
+            <div class="js-scroll-target"></div>
+            <div>
+                <div class="container">
+                    <div class="inner wide-row center-col">
+                        <div class="col sync-col--left">
+                            <h2 class="section-title sync-title">How to Sync my Contacts</h2>
+                            <p class="section-leading sync-leading--right">Note that, before you try to sync contacts, your Google account(s) should be authorized, i.e. added to the Account Section.
+                                In case you have some issues with account authorization, please, try to perform Google authorization manually. Read more here.
+                                If you have changed the password to your Google account you will get a notification that the program is unable to sync your accounts. You have to refresh your account by clicking the button with 360 arrows on it in the Account Section. Read more here.
+                                The free version allows you to add as many Google accounts as you want but only one at a time will be synced, i.e you put one check mark for one account to sync.</p>
+                        </div>
+                        <div class="col sync-col--right">
+                            <div class="sync-media">
+                                <img src="../img/manual_1.jpg" alt="Contacts syncing screen" class="sync-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sync-middle contact__sync-middle">
+                <div class="container">
+                    <div class="inner wide-row wide-row--reverse center-col">
+                        <div class="col sync-col--left">
+                            <p class="section-leading sync-leading--left">The full version of Outlook4Gmail gives you more freedom and you may synchronize as many Google accounts as you want simultaneously. There is no limit on the number of synchronizations, so you literally put many checkmarks in the appropriate checkboxes and apply more than one sync rule.
+                                It’s easy to sync the contacts. There are 3 types of synchronization:</p>
+                            <ol class="type__list">
+                                <li class="type__list__item">1. Sync type icon You import Google contacts into Outlook. Google contacts remain the same and don’t sync with the Outlook ones</li>
+                                <li class="type__list__item">2. Sync type icon You sync the two sources Google and Outlook. Both of them are updated</li>
+                                <li class="type__list__item">3. Sync type icon You import Outlook contacts into Google. Outlook contacts remain the same and don’t with the Google ones</li>
+                            </ol>
+                        </div>
+                        <div class="col sync-col--right">
+                            <div class="sync-media">
+                                <img src="../img/manual_2.jpg" alt="Calendars syncing screen" class="sync-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sync-bottom contact__sync-bottom">
+                <div class="container">
+                    <div class="inner--column center-col">
+                        <p class="section-leading sync-leading">
+                        We strongly recommend to backup your contacts before you try to sync Google contacts with Outlook. The backup function is performed in Tools section by clicking on Export. Thus, your Outlook contacts will be saved on your computer.</p>
+                        <p class="section-leading sync-leading">If you have contacts of the same person added to your Outlook and Google accounts but their value in both accounts is different, the priority during the two-way sync process belongs to the contact that was recently modified. So to say Outlook4Gmail sees your contact’s profile activity and prioritize automatically the most recent one. So if your</p>
+                        <p class="section-leading sync-leading">Google contact is a priority, its information will overwrite the duplicated Outlook one. If you have a Google account on Android or iOS device, contacts and calendars sync is possible but you have to read more on how to do it, please click here (Android) or here (iOS).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-video js-scroll-active" id="video-contact">
+            <div class="js-scroll-target"></div>
+            <div class="container">
+                <div class="inner--column center-col syncing-row__title">
+                    <h2 class="section-title">Video “How to Sync my Contacts”</h2>
+                </div>
+                <div class="media__wrapper">
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/kWIIdFaYq_E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="section-syncing js-scroll-active filter-contact" id="filter-contact">
             <div class="js-scroll-target"></div>
             <div class="sync-top">
                 <div class="container">
                     <div class="inner wide-row center-col">
                         <div class="col sync-col--left">
-                            <h2 class="section-title sync-title">Contacts Syncing</h2>
-                            <p class="section-leading sync-leading">Outlook4Gmail syncs your contacts at the best possible level: name, company, phone number, Email, address, date, note, contact picture, category and Google group, etc. Moreover, Outlook4Gmail provides duplicates elimination function, language settings, automatic backup before the synchronization process.</p>
+                            <h2 class="section-title sync-title">Filters for Contacts</h2>
+                            <p class="section-leading sync-leading--right">1. The two available filters for contacts sync are: by email or by phone number. Please, make sure your contacts information features at least one of the sync options. Read more here.</p>
+                            <p class="section-leading sync-leading--right">2. If you have more than one phone number for one Google contact and they all are ‘labeled’ differently (e.g. Mobile (Operator #1), Mobile (Operator #2), we advise you to use Bypass Phone Type option. Thus, additional information about your contacts will be imported into Outlook database though the labels will not be saved. There is more information on that issue in our F.A.Q. section. Other Settings</p>
                         </div>
                         <div class="col sync-col--right">
                             <div class="sync-media">
-                                <img src="img/sync_contacts.jpg" alt="Contacts syncing screen" class="sync-img">
+                                <img src="../img/manual_3.jpg" alt="Contacts syncing screen" class="sync-img">
                             </div>
                         </div>
                     </div>
@@ -139,12 +202,17 @@
                 <div class="container">
                     <div class="inner wide-row wide-row--reverse center-col">
                         <div class="col sync-col--left">
-                            <h2 class="section-title sync-title">Calendars Syncing</h2>
-                            <p class="section-leading sync-leading">The FULL featured version of Outlook4Gmail allows importing Outlook appointments into a Google calendar and vice versa: Google events into an Outlook calendar. It also syncs Google calendars from multiple Google accounts with Outlook ones. the settings provide opportunities of duplicates check, their elimination and automatic data backup.</p>
+                            <p class="section-leading sync-leading--left">3. More sync filters are available in the section Other</p>
+                            <ul class="filter__list--light sync-leading--left">
+                                <li class="filter__item">&#8226; Checkmark applied to It is allowed to delete contacts means that if you delete a contact in Outlook it will vanish from Google and vice versa.<li>
+                                <li class="filter__item">&#8226; Checkbox Show a prompt message to confirm contacts deletion should be filled out if you want to receive confirmation on actions related to deletion.</li>
+                                <li class="filter__item">&#8226; Option Check on duplicates before synchronization is very useful in case you have contacts or appointments/events duplicates in your Outlook and Google accounts and you do not want them to multiply. We advise checking every time before you perform synchronization, thus you will easily track allduplicates. To read more click here. Read about appointments/events duplicates here.</li>
+                                <li class="filter__item">&#8226; File As attribute helps you to give additional labeling to your contacts. Do apply the check mark if you want this option to be on.</li>
+                            </ul>
                         </div>
                         <div class="col sync-col--right">
                             <div class="sync-media">
-                                <img src="img/sync_calendars.jpg" alt="Calendars syncing screen" class="sync-img">
+                                <img src="../img/manual_4.jpg" alt="Calendars syncing screen" class="sync-img">
                             </div>
                         </div>
                     </div>
@@ -154,19 +222,84 @@
                 <div class="container">
                     <div class="inner wide-row center-col">
                         <div class="col sync-col--left">
-                            <h2 class="section-title sync-title">Tasks Syncing</h2>
-                            <p class="section-leading sync-leading">In addition to contacts and calendars syncing, Outlook4Gmail also provides the synchronization of Google tasks with Outlook tasks folders. You could sync multiple Outlook tasks folders and subfolders with Google task lists. Synchronization of Outlook recurrent tasks is also supported.</p>
+                            <p class="section-leading sync-leading--right">4. For additional settings go to Miscellaneous and Network tabs.
+                                As you see the following filters could be applied: backup confirmation on data synchronization, check for updates (this one we strongly recommend), scanning and language settings
+                            <p class="section-leading sync-leading--right">5. If you are using Outlook4Gmail free version, you cannot sync Google and Outlook calendars. To enable this option, please, purchase the key.</p>
+                            <p class="section-leading sync-leading--right">6. Additional sync options except for SYNC NOW are available only for the full version of Outlook4Gmail.Once you purchase the key, you will be able to set up the settings for synchronization:</p>
+                            <ul class="filter__list--dark sync-leading--right">
+                                <li class="filter__item">&#8226; Sync when Outlook starts</li>
+                                <li class="filter__item">&#8226; Sync when Outlook is running (available time intervals are: 30 min, 1 hour, 2, 4, 8, 12 or 24 hours)</li>
+                            </ul>
                         </div>
                         <div class="col sync-col--right">
                             <div class="sync-media">
-                                <img src="img/sync_tasks.jpg" alt="Tasks syncing screen" class="sync-img">
+                                <img src="../img/manual_5.jpg" alt="Tasks syncing screen" class="sync-img">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-contact">
+        <section class="section-syncing js-scroll-active calendar-sync" id="calendar-sync">
+            <div class="js-scroll-target"></div>
+            <div class="sync-top">
+                <div class="container">
+                    <div class="inner wide-row">
+                        <div class="col sync-col--left">
+                            <h2 class="section-title sync-title">How to Sync my Calendars</h2>
+                            <p class="section-leading sync-leading--right">Calendar settings are active only for the users who purchased the license and activated Outlook4Gmail full version.<br>
+                            Calendar synchronization resembles the one we already performed for the contacts.<br>
+                            Note that, before you try to sync Outlook calendar with Google, your Google account(s) should be authorized, i.e. added to the Account Section.</p>
+                            <p class="section-leading sync-leading--right">
+                            We can define multiple sync rules for one account. We can add two or more Google calendars and start synchronization with any of Outlook calendars. As you see, again you have arrows defining the way you would like calendars to be synced.</p>
+                            <p class="section-leading sync-leading--right">We strongly recommend to backup your calendars before you try to export Outlook calendar to Google. The backup function is performed in Tools section by clicking on Export. Thus, your Outlook appointments will be saved on your computer and you will also get an opportunity to edit Google calendar in Outlook</p>
+                        </div>
+                        <div class="col sync-col--right">
+                            <div class="sync-media">
+                                <img src="../img/manual_6.jpg" alt="Contacts syncing screen" class="sync-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-video video__calendar js-scroll-active" id="video-calendar">
+            <div class="js-scroll-target"></div>
+            <div class="container">
+                <div class="inner--column center-col syncing-row__title">
+                    <h2 class="section-title">Video “How to Sync my Calendar”</h2>
+                </div>
+            </div>
+            <div class="video__outer">
+                <div class="container">
+                    <div class="media__wrapper">
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/le0CETozZZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-syncing js-scroll-active add-sync" id="add-sync">
+            <div class="js-scroll-target"></div>
+            <div class="container">
+                <div class="inner wide-row wide-row--reverse center-col">
+                    <div class="col sync-col--left">
+                        <h2 class="section-title sync-title">Additional options</h2>
+                        <ul class="filter__list--light sync-leading--left">
+                            <li class="filter__item">&#8226; Tools tab in Outlook4Gmail interface helps to import and export your contacts and calendars from Outlook to computer and vice versa.<li>
+                            <li class="filter__item">&#8226; Option Fix bad formatted birthdays which is also located in the section Tools helps to fix potential mistakes in contacts information (e.g. contact’s year of birth is missing).</li>
+                            <li class="filter__item">&#8226; View event log option helps to get a track of all your actions while working with Outlook4Gmail. Date, time and a brief description of your moves are provided.</li>
+                            <li class="filter__item">&#8226; Help section reflects the information on how to get feedback with the support team of Outlook4Gmail, write an email or be redirected to F.A.Q page.</li>
+                        </ul>
+                    </div>
+                    <div class="col sync-col--right">
+                        <div class="sync-media">
+                            <img src="../img/manual_7.jpg" alt="Calendars syncing screen" class="sync-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-contact section-contact__inner">
             <div class="container">
                 <div class="inner wide-row contact-inner">
                     <div class="col contact-col--left">
