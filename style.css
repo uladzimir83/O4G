@@ -4798,6 +4798,10 @@ tbody:last-of-type tr:last-child {
   margin-bottom: 30px;
 }
 
+.contact__sync-bottom .sync-leading:first-child {
+  color: #3f5de5;
+}
+
 
 .section-video {
   padding: 98px 0 63px;
@@ -5191,7 +5195,7 @@ tbody:last-of-type tr:last-child {
 
   .video__calendar {
     padding: 20px 0 0;
-  } 
+  }
 
   .video__calendar .section-title {
     margin-bottom: 70px;
@@ -5216,6 +5220,10 @@ tbody:last-of-type tr:last-child {
 
   .filter-contact .sync-bottom {
     padding-top: 30px;
+  }
+
+  .calendar-sync .sync-col--right {
+    justify-content: center;
   }
 
   .add-sync {
