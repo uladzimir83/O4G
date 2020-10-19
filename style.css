@@ -4038,6 +4038,16 @@ tbody:last-of-type tr:last-child {
   text-decoration: underline;
 }
 
+.section-faq .plain__link {
+  text-decoration: underline;
+  text-decoration-color: #3f5de5;
+  transition: .5s;
+}
+
+.section-faq .plain__link:hover {
+  text-decoration-color: transparent;
+}
+
 @media (max-width: 1599px) {
   .section-keys {
     padding: 70px 0 40px;
