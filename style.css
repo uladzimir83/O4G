@@ -3259,9 +3259,9 @@ tbody:last-of-type tr:last-child {
   position: relative;
   color: #5789ef;
   text-decoration: underline;
-  text-decoration-color: #1c85c8;
-  -webkit-text-decoration-color: #1c85c8;
- -moz-text-decoration-color: #1c85c8;
+  text-decoration-color: #5789ef;
+  -webkit-text-decoration-color: #5789ef;
+ -moz-text-decoration-color: #5789ef;
   transition: 1s;
 }
 
