@@ -6281,3 +6281,337 @@ input[type='file'] {
   }
 }
 /* end Support template */
+
+
+/* Renew template */
+.section-renew {
+  margin-bottom: 135px;
+  padding: 152px 0;
+}
+
+.section-renew.section-shape:after {
+  width: 1117px;
+  height: 1117px;
+  left: 50%;
+}
+
+.section-renew .section-title {
+  margin-bottom: 32px;
+}
+
+.renew-header {
+  margin-bottom: 42px;
+}
+
+.renew-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 56px 0;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  background: #fff;
+}
+
+.renew-form.form-shape:after {
+  width: 41vw;
+  height: 38vw;
+  bottom: -29%;
+  left: 69%;
+}
+
+.renew-form__inner {
+  margin-bottom: 45px;
+  width: 550px;
+}
+
+.renew-form__row {
+  margin-bottom: 25px;
+}
+
+.renew-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  text-align: center;
+}
+
+.form-helper-text {
+  text-align: center;
+  line-height: 2.7778;
+  color: #8A86A7;
+}
+
+.renew-form__row--inline {
+  margin-top: -19px;
+  text-align: center;
+}
+
+.renew-form__row--inline .select__list {
+  padding: 9px 26px 9px 22px;
+  height: 50px;
+  font-family: Nunito, sans-serif;
+  font-size: 20px;
+}
+
+.renew-form__row--inline .select__label {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  margin-left: -14px;
+}
+
+.renew-form__row--inline .select__label:after {
+  top: 11px;
+  right: 0px;
+}
+
+.input-wrapper {
+  margin-left: 35px;
+}
+
+@media (max-width: 1599px) {
+  .section-renew {
+    margin-bottom: 182px;
+    padding: 73px 0;
+  }
+
+  .section-renew.section-shape:after {
+    width: 866px;
+    height: 866px;
+    left: 40%;
+    top: 8px;
+  }
+
+  .renew-form.form-shape:before {
+    top: -117px;
+    left: 94px;
+    width: 274px;
+    height: 274px;
+  }
+
+  .renew-form__inner {
+    margin-bottom: 9px;
+    width: 430px;
+  }
+
+  .renew-form {
+    padding: 72px 0;
+  }
+
+  .renew-form.form-shape:after {
+    bottom: -20%;
+    left: 72%;
+    min-width: 598px;
+    min-height: 598px;
+  }
+
+  .renew-form__row {
+    margin-bottom: 36px;
+  }
+
+  .renew-form label {
+    font-size: 18px;
+  }
+
+  .form-helper-text {
+    margin: 0 -45px;
+  }
+
+  .renew-form__row--inline .select__label {
+    margin-left: -2px;
+  }
+
+  .renew-form__row--inline .select__label:after {
+    top: 13px;
+    right: 0;
+    width: 35px;
+  }
+
+  .input-wrapper {
+    margin-left: 49px;
+  }
+
+  .renew-form__row--inline .select__list {
+    padding: 5px 26px 5px 22px;
+    height: auto;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .section-renew.section-shape:after {
+    width: 69vw;
+    height: 69vw;
+    left: 40%;
+    top: 60px;
+  }
+
+  .renew-form {
+    padding: 60px 0;
+  }
+
+  .renew-form.form-shape:after {
+    min-width: initial;
+    min-height: initial;
+  }
+
+  .renew-form__inner {
+    margin-bottom: 0px;
+    width: 380px;
+  }
+
+  .renew-form__row {
+    margin-bottom: 27px;
+  }
+
+  .renew-form label {
+    font-size: 16px;
+  }
+
+  .renew-form__row--inline .select__list {
+    height: 37px;
+    font-size: 16px;
+  }
+
+  .renew-form__row--inline .select__label:after {
+    width: 30px;
+    height: 37px;
+    background-size: 59%;
+  }
+}
+
+@media (max-width: 992px) {
+  .section-renew {
+    margin-bottom: 113px;
+    padding: 79px 0;
+  }
+
+  .section-renew.section-shape:after {
+    min-width: 613px;
+    min-height: 613px;
+  }
+
+  .section-renew .section-title {
+    margin-bottom: 24px;
+  }
+
+  .renew-header {
+    margin-bottom: 33px;
+  }
+
+  .renew-form {
+    padding: 38px 0 31px;
+  }
+
+  .renew-form.form-shape:before {
+    top: -65px;
+    left: 50px;
+    width: 175px;
+    height: 175px;
+  }
+
+  .renew-form.form-shape:after {
+    bottom: -23%;
+    left: 72%;
+    width: 40vw;
+    height: 48vw;
+  }
+
+  .renew-form__inner {
+    width: 322px;
+  }
+
+  .form-helper-text {
+    margin: 13px -55px 0;
+  }
+
+  .renew-form__row--inline {
+    margin-top: -24px;
+    margin-bottom: 34px;
+  }
+
+  .renew-form__row--inline .select__label {
+    margin-left: 10px;
+  }
+
+  .renew-form__row--inline .select__label:after {
+    top: 12px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .renew-form__row--inline .select__list {
+    height: 35px;
+    padding: 5px 34px 5px 23px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-renew {
+    padding: 60px 0;
+  }
+
+  .section-renew.section-shape:after {
+    min-width: initial;
+    min-height: inherit;
+    max-width: 545px;
+    max-height: 545px;
+    width: 108vw;
+    height: 108vw;
+    left: inherit;
+    right: -13%;
+    top: 15px;
+  }
+
+  .section-renew .inner {
+    padding: 0;
+  }
+
+  .renew-header {
+    margin-bottom: 24px;
+  }
+
+  .renew-form {
+    width: 100%;
+    max-width: 600px;
+    padding: 32px 0 35px;
+  }
+
+  .renew-form.form-shape:after {
+    bottom: -15%;
+    left: 62%;
+    width: 79vw;
+    height: 79vw;
+    max-width: 445px;
+    max-height: 445px;
+  }
+
+  .renew-form__row {
+    margin-bottom: 22px;
+  }
+
+  .renew-form label {
+    font-size: 14px;
+  }
+
+  .form-helper-text {
+    margin: 7px 31px 0;
+    font-size: 14px;
+    line-height: 1.3;
+  }
+
+  .renew-form__row--inline {
+    margin-top: 31px;
+    margin-bottom: 30px;
+  }
+
+  .renew-form__row--inline .select__label:after {
+    top: 6px;
+  }
+}
+/* end Renew template */
