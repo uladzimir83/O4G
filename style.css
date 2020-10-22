@@ -4272,12 +4272,12 @@ tbody:last-of-type tr:last-child {
   line-height: 1.5;
 }
 
-.section-pricing .plain__text {
+.section-pricing .text-center {
   margin-bottom: 30px;
   letter-spacing: 0.1px;
 }
 
-.section-pricing .plain__text:last-child {
+.section-pricing .text-center:last-child {
   margin-bottom: 0;
 }
 
@@ -4312,8 +4312,10 @@ tbody:last-of-type tr:last-child {
   color: #fff;
 }
 
-.section-refunds .plain__text {
+.section-refunds p {
   max-width: 1070px;
+  margin: 0 auto;
+  text-align: center;
   letter-spacing: 0.1px;
   color: #fff;
 }
@@ -4427,16 +4429,12 @@ tbody:last-of-type tr:last-child {
     padding: 80px 0;
   }
 
-  .section-affiliate .plain__text {
+  .section-affiliate .text-center {
     max-width: 460px;
   }
 }
 
 @media (max-width: 992px) {
-  .purchase-title {
-    padding: 40px 0 0 0;
-  }
-
   .purchase__cards .offer__card {
     margin: 0 15px 40px;
   }
@@ -4453,19 +4451,15 @@ tbody:last-of-type tr:last-child {
     font-size: 18px;
   }
 
-  .section-pricing .header-btn {
-    margin: 30px 0;
-  }
-
   .refunds-title {
     font-size: 22px;
   }
 
-  .section-refunds .plain__text {
+  .section-refunds p {
     max-width: 655px;
   }
 
-  .section-affiliate .plain__text {
+  .section-affiliate .text-center {
     max-width: 380px;
   }
 
