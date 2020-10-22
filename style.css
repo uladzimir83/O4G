@@ -3217,7 +3217,7 @@ tbody:last-of-type tr:last-child {
   letter-spacing: -.9px;
 }
 
-.contact-btn .btn {
+.btn-contact {
   width: 220px;
   height: 60px;
   line-height: 60px;
@@ -3286,7 +3286,7 @@ tbody:last-of-type tr:last-child {
     margin-bottom: 8px;
   }
 
-  .contact-btn .btn {
+  .btn-contact {
     width: 192px;
     height: 50px;
     line-height: 46px;
@@ -3336,7 +3336,7 @@ tbody:last-of-type tr:last-child {
     letter-spacing: normal;
   }
 
-  .contact-btn .btn {
+  .btn-contact {
     width: 183px;
   }
 }
@@ -3394,7 +3394,7 @@ tbody:last-of-type tr:last-child {
     text-align: center;
   }
 
-  .contact-btn .btn {
+  .btn-contact {
     width: 160px;
     height: 45px;
     line-height: 45px;
