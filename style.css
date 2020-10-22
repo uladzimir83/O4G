@@ -1269,7 +1269,7 @@ section {
 
 /* ------ Page nav part ------ */
 .section-nav {
-  padding-top: 150px;
+  padding: 150px 0 75px;
 }
 
 .section-nav.is-scroll {
@@ -1368,8 +1368,7 @@ section {
 
 /* ------ About section ------ */
 .section-about {
-  padding-top: 150px;
-  padding-bottom: 75px;
+  padding: 75px 0;
 }
 
 .section-about .text-media__left {
@@ -1442,7 +1441,7 @@ section {
 @media (max-width: 992px) {
   .section-about {
     padding-bottom: 36px;
-    margin-top: -214px;
+    margin-top: 60px;
   }
 
   .about-leading {
@@ -1479,12 +1478,11 @@ section {
 /* ------ Core Functions section ------ */
 
 .section-functions {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 96px 0 115px;
 }
 
-.functions-title {
-  text-align: center;
+.section-functions .section-title {
+  margin-bottom: 62px;
 }
 
 .functions {
@@ -1493,12 +1491,11 @@ section {
   justify-content: space-between;
   max-width: 1300px;
   margin: 0 auto;
-  padding-top: 60px;
 }
 
 .functions:after {
   position: absolute;
-  top: 18px;
+  top: -18px;
   left: 50%;
   z-index: -1;
   transform: translateX(-50%);
@@ -1510,26 +1507,57 @@ section {
 }
 
 .functions__item {
+  width: 20%;
   text-align: center;
 }
 
-.functions__item--1,
-.functions__item--5 {
-  margin-top: 22px;
+.functions__item--1 {
+  margin-top: 52px;
+  padding-right: 20px;
 }
 
-.functions__item--2,
+.functions__item--2 {
+  margin-top: 200px;
+  padding-left: 10px;
+}
+
+.functions__item--3 {
+  margin-top: 15px;
+  padding-left: 16px;
+}
+
 .functions__item--4 {
-  margin-top: 175px;
+  margin-top: 204px;
+  padding-left: 21px;
 }
 
-.functions__img {
-  display: inline-block;
-  margin-bottom: 17px;
+.functions__item--5 {
+  margin-top: 42px;
+  padding-left: 21px;
+}
+
+.functions__item--1 .functions__img {
+  margin-bottom: 3px;
+}
+
+.functions__item--2 .functions__img {
+  margin-bottom: 13px;
+}
+
+.functions__item--3 .functions__img {
+  margin-bottom: 24px;
+}
+
+.functions__item--4 .functions__img {
+  margin-bottom: 9px;
+}
+
+.functions__item--5 .functions__img {
+  margin-bottom: 14px;
 }
 
 .functions__text {
-  padding: 0 18px;
+  line-height: 1.2;
 }
 
 .section-functions .js-scroll-target {
