@@ -3754,20 +3754,12 @@ tbody:last-of-type tr:last-child {
 
 .version-title {
   margin-bottom: 22px;
-  font-family: Quicksand;
-  font-weight: 500;
   font-size: 26px;
   line-height: 1.230;
-  color: #494376;
 }
 
 .version-text {
   margin-bottom: 30px;
-  font-family: Nunito;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 1.4;
-  color: #646084;
 }
 
 .main__download .text-media {
@@ -3815,6 +3807,7 @@ tbody:last-of-type tr:last-child {
 .keys__item {
   position: relative;
   padding: 0 90px 0 143px;
+  font-size: 18px;
   line-height: 2.7778;
 }
 
@@ -3916,7 +3909,8 @@ tbody:last-of-type tr:last-child {
 
 .offer__card__text {
   margin-bottom: 39px;
-  line-height: 1.35;
+  font-size: 18px;
+  line-height: 1.333;
 }
 
 .offer__card__link {
@@ -3992,10 +3986,6 @@ tbody:last-of-type tr:last-child {
     font-size: 22px;
   }
 
-  .version-text {
-    font-size: 18px;
-  }
-
   .section-keys {
     padding: 50px 0 40px;
   }
@@ -4030,7 +4020,6 @@ tbody:last-of-type tr:last-child {
   }
 
   .version-text {
-    font-size: 16px;
     margin-bottom: 20px;
   }
 
