@@ -1787,7 +1787,7 @@ section {
 
 .section-syncing {
   position: relative;
-  padding: 103px 0 115px;
+  padding: 103px 0 50px;
 }
 
 .section-syncing .col {
@@ -2054,8 +2054,13 @@ section {
   position: relative;
   overflow: hidden;
   margin-bottom: -23px;
-  padding-top: 90px;
+  padding-top: 154px;
   padding-bottom: 23px;
+}
+
+.section-features .section-title {
+  margin-bottom: 97px;
+  text-align: center;
 }
 
 .section-features:before {
@@ -2101,7 +2106,7 @@ section {
 }
 
 .feature-heading--wide {
-  padding-left: 137px;
+  padding-left: 142px;
   text-align: left;
 }
 
@@ -2140,7 +2145,7 @@ td {
 
 td:last-child {
   border-right-color: transparent;
-  padding: 0 130px 0 70px;
+  padding: 0 123px 0 70px;
 }
 
 tr:nth-child(even) {
@@ -2152,7 +2157,7 @@ tbody:last-of-type tr:last-child {
 }
 
 .feature-type {
-  padding: 29px 0 15px 137px;
+  padding: 29px 0 15px 142px;
   font-family: Quicksand;
   font-weight: normal;
   font-size: 26px;
@@ -2166,14 +2171,15 @@ tbody:last-of-type tr:last-child {
 }
 
 .feature-text {
-  width: 885px;
-  padding-left: 137px;
+  width: 891px;
+  font-size: 18px;
+  padding-left: 142px;
   text-align: left;
 }
 
 .feature-check {
   background: url('img/check.png') no-repeat;
-  background-position: 80px;
+  background-position: 77px;
 }
 
 .section-features .js-scroll-target {
