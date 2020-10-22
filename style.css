@@ -2495,6 +2495,13 @@ tbody:last-of-type tr:last-child {
   background: linear-gradient(89.3deg, rgba(89, 139, 240, 0.7) 49.99%, rgba(116, 182, 254, 0) 100%);
 }
 
+.section-boost .section-title {
+  max-width: 855px;
+  margin: 0 auto 60px;
+  text-align: center;
+  color: #fff;
+}
+
 @media (max-width: 1599px) {
   .section-boost {
     padding: 166px 0 170px;
@@ -2525,14 +2532,19 @@ tbody:last-of-type tr:last-child {
 /* ------ Testimonials section ------ */
 
 .section-testimonials {
-  padding: 137px 0 114px;
+  padding: 142px 0 114px;
   background: linear-gradient(89.4deg, #E6E9EE 14.16%, rgba(255, 255, 255, 0) 36.48%);
+}
+
+.section-testimonials .section-title {
+  margin-bottom: 77px;
+  text-align: center;
 }
 
 .testimonials {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 70px;
 }
 
@@ -2540,7 +2552,7 @@ tbody:last-of-type tr:last-child {
   flex: 0 0 390px;
   min-height: 566px;
   overflow: hidden;
-  margin-top: -50px;
+  margin-top: 30px;
   padding: 40px 35px 56px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
@@ -2551,6 +2563,7 @@ tbody:last-of-type tr:last-child {
 .testimonials__center {
   flex: 0 0 406px;
   margin-top: 0;
+  padding: 39px 28px 60px;
   color: #fff;
   background: linear-gradient(180deg, #5788EF 0%, #74B7FE 100%);
 }
@@ -2566,7 +2579,7 @@ tbody:last-of-type tr:last-child {
 
 .testimonials-card__user:after {
   position: absolute;
-  top: 90px;
+  top: 84px;
   left: 50%;
   z-index: -1;
   width: 557px;
@@ -2613,7 +2626,7 @@ tbody:last-of-type tr:last-child {
 }
 
 .card-user__title {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   font-family: Quicksand;
   font-weight: 500;
   font-size: 24px;
@@ -2622,6 +2635,8 @@ tbody:last-of-type tr:last-child {
 
 .card-user__subtitle {
   margin-bottom: 22px;
+  font-family: 'Quicksand';
+  font-size: 18px;
 }
 
 .card-user__text {
@@ -2907,6 +2922,11 @@ tbody:last-of-type tr:last-child {
   padding: 87px 0 576px;
 }
 
+.section-news .section-title {
+  margin-bottom: 58px;
+  text-align: center;
+}
+
 .news-card {
   position: relative;
   display: flex;
@@ -2963,6 +2983,7 @@ tbody:last-of-type tr:last-child {
 
 .news-card__offer {
   margin-bottom: 25px;
+  font-size: 24px;
   line-height: 1.2;
 }
 
@@ -3152,7 +3173,7 @@ tbody:last-of-type tr:last-child {
 
 .section-contact {
   position: relative;
-  margin-top: -194px;
+  margin-top: -197px;
   padding-bottom: 55px;
   background: linear-gradient(-90.03deg, #E6E7EF 0.02%, #FFFFFF 99.97%);
 }
@@ -3215,6 +3236,7 @@ tbody:last-of-type tr:last-child {
 
 .contact-col--right p {
   margin-bottom: 14px;
+  font-size: 18px;
   text-align: right;
   letter-spacing: -.9px;
 }
@@ -3227,7 +3249,7 @@ tbody:last-of-type tr:last-child {
 
 .contact-shape {
   position: absolute;
-  bottom: -75px;
+  bottom: -87px;
   width: 100%;
   height: 400px;
   z-index: 1;
