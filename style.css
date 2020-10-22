@@ -3587,6 +3587,16 @@ tbody:last-of-type tr:last-child {
   background-color: #fff;
 }
 
+.site-content {
+  position: relative;
+  z-index: 6;
+  padding-top: 78px;
+}
+
+.content-heading {
+  margin-bottom: 30px;
+}
+
 .section-contact.section-contact__inner {
   margin: 0;
 }
@@ -3596,21 +3606,9 @@ tbody:last-of-type tr:last-child {
   display: none;
 }
 
-.btn-row {
-  text-align: center;
-}
-
-.btn-row .btn:first-child {
-  margin-right: 14px;
-}
-
-.plain__text {
+.text-center {
   max-width: 857px;
   margin: 0 auto;
-  font-family: Quicksand;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.4;
   letter-spacing: 0.7px;
   text-align: center;
 }
@@ -3620,31 +3618,20 @@ tbody:last-of-type tr:last-child {
 }
 
 @media (max-width: 1200px) {
-  .plain__text {
+  .text-center {
     font-size: 18px;
   }
 }
 
 @media (max-width: 992px) {
-  .plain__text {
+  .text-center {
     max-width: 535px;
     font-size: 16px;
   }
 }
 
-@media (max-width: 767px) {
-  .btn-row {
-    width: 160px;
-  }
-
-  .btn-row .btn:first-child {
-    margin-right: 0;
-    margin-bottom: 20px;
-  }
-}
-
 @media (max-width: 600px) {
-  .plain__text {
+  .text-center {
     font-size: 14px;
   }
 }
