@@ -664,7 +664,7 @@ section {
   width: 100%;
 }
 
-.logo {
+.logo__link {
   display: inline-block;
   width: 260px;
   height: 47px;
@@ -672,15 +672,11 @@ section {
 
 .menu {
   position: absolute;
-  top: 23px;
+  top: 20px;
   right: calc((100% - 1320px) / 2);
   z-index: 2;
   display: flex;
-  margin-right: 11px;
-}
-
-.header-nav.is-scrolled .menu {
-  top: 17px;
+  margin-right: 23px;
 }
 
 .menu__item {
@@ -707,7 +703,7 @@ section {
 @media (min-width: 993px) {
 
   .header-nav.is-scrolled .lang__list {
-    top: 48px;
+    top: 45px;
   }
 
   .header-nav.is-scrolled .lang__list:before {
@@ -733,11 +729,11 @@ section {
 
   .menu__item__lang:after {
     position: absolute;
-    top: 8px;
-    left: 27px;
+    top: 7px;
+    left: 24px;
     content: '';
-    width: 15px;
-    height: 10px;
+    width: 10px;
+    height: 6px;
     background: url("data:image/svg+xml,%3Csvg width='11' height='7' viewBox='0 0 11 7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.79694 1.56361C9.85824 1.4992 9.88889 1.41868 9.88889 1.33011C9.88889 1.24155 9.85824 1.16103 9.79694 1.09662C9.67433 0.967794 9.4751 0.967794 9.35249 1.09662L5.44444 5.2029L1.5364 1.09662C1.41379 0.967794 1.21456 0.967794 1.09195 1.09662C0.969349 1.22544 0.969349 1.43478 1.09195 1.56361L5.22222 5.90338C5.34483 6.03221 5.54406 6.03221 5.66667 5.90338L9.79694 1.56361Z' fill='%231356EE' stroke='%23494376'/%3E%3C/svg%3E%0A") center no-repeat;
     transition: transform .3s;
   }
@@ -770,7 +766,7 @@ section {
   }
 
   .lang__link {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: #494376;
     transition: color .3s;
@@ -778,6 +774,26 @@ section {
 
   .lang__link:hover {
     color: #1356ee;
+  }
+}
+
+@media (min-width: 1366px) {
+  .menu__item__lang:after {
+    position: absolute;
+    top: 12px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .lang__link {
+    font-size: 18px;
+  }
+
+  .menu__item__lang:after {
+    top: 8px;
+    left: 27px;
+    width: 10px;
+    height: 11px;
   }
 }
 
@@ -977,25 +993,34 @@ section {
     background-size: 100% 84%;
     background-position: 0 63px;
   }
+
+  .header-text {
+    margin-right: 4.8vw;
+  }
 }
 /* end for mackbook and other  retina displays */
 
 @media (max-width: 1599px) {
   .header {
-    background-size: 100% 32vw;
+    background-size: 100% 35vw;
+  }
+
+  .header:after {
+    right: calc(-1 * (100vw - 94vw));
+    bottom: 0;
   }
 
   .header-nav {
     padding: 16px 0;
   }
 
-  .logo {
-    width: 205px;
+  .logo__link {
+    width: 202px;
     height: 36px;
   }
 
   .menu {
-    margin-right: 0;
+    margin-right: 17px;
     right: calc((100% - 1150px) / 2);
   }
 
@@ -1039,8 +1064,8 @@ section {
   }
 
   .header-shape {
-    bottom: -100px;
-    height: 290px;
+    bottom: -125px;
+    height: 270px;
   }
 
   .header-bottom {
@@ -1055,6 +1080,10 @@ section {
 }
 
 @media (max-width: 1365px) {
+  .header {
+    background-size: 100% 31vw;
+  }
+
   .header:after {
     top: -20vw;
   }
@@ -1080,6 +1109,10 @@ section {
 }
 
 @media (max-width: 1200px) {
+  .header {
+    background-size: 100% 86%;
+  }
+
   .header:after {
     right: calc(-1 * (100vw - 84vw));
   }
@@ -1089,7 +1122,8 @@ section {
   }
 
   .header-nav {
-    height: 71px;
+    height: 55px;
+    padding: 9px 0;
     background-color: #fff;
     box-shadow: 2px 2px 6px rgba(156, 122, 122, 0.25);
   }
@@ -1100,7 +1134,7 @@ section {
   }
 
   .menu {
-    top: 71px;
+    top: 55px;
     left: 0;
     border-top: 2px solid #f0f0f0;
     display: none;
@@ -1117,13 +1151,13 @@ section {
 
   .hamburger {
     position: absolute;
-    top: -7px;
+    top: -8px;
     right: 0;
     display: inline-block;
   }
 
   .header-text {
-    margin-right: 3.7vw;
+    margin-right: 5.3vw;
     padding-top: 50px;
   }
 
@@ -1133,13 +1167,36 @@ section {
 
   .header-shape {
     bottom: -88px;
+    height: 165px;
   }
 }
 
 @media (max-width: 992px) {
   .header {
-    padding-bottom: 230px;
     background-size: 100% 92%;
+  }
+
+  .header-nav {
+    height: 71px;
+    padding: 16px 0;
+  }
+
+  .header:after {
+    top: -35vw;
+    right: calc(-1 * (100vw - 47vw));
+    width: 108vw;
+    height: 108vw;
+    max-width: 975px;
+    max-height: 975px;
+  }
+
+  .dev-logo {
+    margin-left: 6vw;
+  }
+
+  .logo__link {
+    width: 215px;
+    height: 42px;
   }
 
   .menu {
@@ -1204,7 +1261,7 @@ section {
     min-width: auto;
     max-width: 50%;
     margin-right: 0;
-    padding-top: 88px;
+    padding-top: 92px;
   }
 
   .header-leading {
@@ -1212,19 +1269,26 @@ section {
   }
 
   .header-media {
-    margin-top: 4px;
-    margin-left: 15px;
+    margin-top: 7px;
+    margin-left: -7px;
     flex-grow: 1;
     text-align: center;
   }
 
   .header-media__img {
-    max-width: 374px;
+    max-width: 375px;
   }
 
   .header-shape {
+    display: none;
+  }
+
+  .header-shape__mobile {
+    position: absolute;
     bottom: -103px;
-    height: 145px;
+    display: block;
+    width: 100%;
+    height: 170px;
   }
 
   .header-bottom {
@@ -1242,13 +1306,13 @@ section {
 
 @media (max-width: 767px) {
   .header {
-    background-size: 100% 65%;
-    padding-bottom: 180px;
+    background-size: 100%;
+    padding-bottom: 55px;
   }
 
   .header:after {
     top: auto;
-    bottom: 385px;
+    bottom: 120px;
     right: auto;
     left: 50%;
     transform: translateX(-50%);
@@ -1257,18 +1321,14 @@ section {
     background: linear-gradient(180.18deg, #8BAEF5 0.16%, rgba(139, 174, 245, 0) 99.84%);
   }
 
-  .header-shape {
-    display: none;
-  }
-
-  .header-shape__mobile {
-    display: block;
-    height: 150px;
-  }
-
   .header-nav {
     height: 56px;
     padding: 9px 0;
+  }
+
+  .logo__link {
+    width: 205px;
+    height: 37px;
   }
 
   .menu {
@@ -1306,7 +1366,7 @@ section {
   }
 
   .header-bottom {
-    bottom: 135px;
+    bottom: -155px;
     height: 215px;
     background: linear-gradient(180.42deg, #fbcd88 27.68%, rgba(255, 226, 99, 0) 94.24%);
   }
@@ -1317,6 +1377,12 @@ section {
     background-size: 200% 110%;
     z-index: 30;
     background-position: -7px 0;
+  }
+
+  .header-shape__mobile {
+    bottom: -88px;
+    width: 116%;
+    height: 90px;
   }
 }
 
