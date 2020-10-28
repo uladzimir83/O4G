@@ -1,6 +1,15 @@
 $(document).on('click', '.hamburger', function(e) {
-    $(this).toggleClass('is-active');
-    $('.menu').toggleClass('is-visible');
+
+  if($('.menu').hasClass('is-visible')) {
+    $('.menu').removeClass('is-visible')
+    $(this).removeClass('is-active');
+    $('.section-nav.is-scroll-tablet') ? $('.section-nav').removeClass('is-scroll-tablet') : null;
+  } else {
+    $('.menu').addClass('is-visible');
+    $(this).addClass('is-active');
+    $('.section-nav').hasClass('is-scroll') ? $('.section-nav').addClass('is-scroll-tablet') : null;
+  }
+  
 });
 
 $(window).on('scroll', function() {
@@ -18,31 +27,33 @@ $(window).on('scroll', function() {
 .trigger('scroll');
 
 function stickyNav() {
-  let nav = document.getElementById('section-nav'),
-      navPos = nav.querySelector('.container').getBoundingClientRect().top + pageYOffset,
-      menu = document.getElementById('header-nav');
+    let pageNav = document.getElementById('section-nav'),
+        pageNavPos = pageNav.querySelector('.container').getBoundingClientRect().top + pageYOffset,
+        menu = document.getElementById('header-nav');
 
-  $(window).on('scroll', function() {
-    setTimeout(function() {
+    $(window).on('scroll', function() {
+      setTimeout(function() {
 
-      let menuBottom = menu.getBoundingClientRect().bottom + pageYOffset + 50,
-          navTop = nav.getBoundingClientRect().top + pageYOffset;
+        let menuBottomPos = menu.getBoundingClientRect().bottom + pageYOffset + 50,
+            pageNavTop = pageNav.getBoundingClientRect().top + pageYOffset;
 
-      if(menuBottom >= navTop) {
-        nav.classList.add('is-scroll');
-      }
+        if(menuBottomPos >= pageNavTop && $('.menu').hasClass('is-visible')) {
+          pageNav.classList.add('is-scroll', 'is-scroll-tablet');
+        } else if (menuBottomPos >= pageNavTop) {
+          pageNav.classList.add('is-scroll');
+        }
 
-      if (menuBottom <= navPos) {
-        nav.classList.remove('is-scroll')
-      }
+        if (menuBottomPos <= pageNavPos) {
+          pageNav.classList.remove('is-scroll', 'is-scroll-tablet');
+        }
 
-    }, 0);
-  })
-  .trigger('scroll');
-
+      }, 0);
+    }).trigger('scroll');
 }
 
-stickyNav();
+$('.main-page') ? stickyNav() : null;
+
+
 
 $(document).on('click', '.page-nav__link' ,function (e) {
   e.preventDefault();
@@ -66,4 +77,33 @@ $(window).scroll(function() {
       $('a[href="#'+id+'"]').addClass('active');
       }
   });
+});
+
+
+function toggleList() {
+  $(document).on('click', '.faq__item', function(e) {
+    let $this = $(this),
+        items = $('.faq__item'),
+        itemsBody = $('.faq__body'),
+        itemBody = $this.find('.faq__body');
+
+        if ($this.hasClass('is-open')) {
+          $this.removeClass('is-open');
+          itemBody.slideUp(400);
+          return;
+        }
+        
+        itemsBody.slideUp();
+
+        items.removeClass('is-open');
+
+        $this.addClass('is-open');
+        itemBody.slideDown(400);
+  });
+};
+
+toggleList();
+
+$('.wpcf7-submit').on('click', function(e) {
+  console.log('done');
 });
