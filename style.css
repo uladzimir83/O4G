@@ -5333,10 +5333,6 @@ tbody:last-of-type tr:last-child {
 }
 
 @media (max-width: 992px) {
-  .dev-logo {
-    margin-left: 6vw;
-  }
-
   .main__manual .text-media {
     padding: 40px 0;
   }
@@ -5348,17 +5344,6 @@ tbody:last-of-type tr:last-child {
 
   .main__manual .text-media__img {
     margin-left: 0;
-  }
-
-  .media__img {
-    max-width: 100%;
-  }
-
-  .text-media__img:after {
-    width: 100%;
-    height: 39px;
-    opacity: 0.5;
-    bottom: -13px;
   }
 
   .main__manual .sync-leading--right {
@@ -5384,15 +5369,6 @@ tbody:last-of-type tr:last-child {
 
   .contact__sync-bottom {
     padding: 40px 0 0;
-  }
-
-  .section-syncing .inner {
-    flex-direction: column;
-  }
-
-  .section-syncing .col {
-    width: 100%;
-    text-align: center;
   }
 
   .section-video {
@@ -5461,10 +5437,6 @@ tbody:last-of-type tr:last-child {
   .main__manual .sync-middle {
     margin: 0;
     background: none;
-  }
-
-  .sync-middle .sync-col--left {
-    padding: 35px 20px;
   }
 
   .type__list {
