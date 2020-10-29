@@ -6488,14 +6488,17 @@ input[type='file'] {
 
 /* Renew template */
 .section-renew {
-  margin-bottom: 135px;
-  padding: 152px 0;
+  margin-bottom: 284px;
 }
 
 .section-renew.section-shape:after {
   width: 1117px;
   height: 1117px;
-  left: 50%;
+  left: 45%;
+}
+
+.section-renew .row-center {
+  margin-bottom: 41px;
 }
 
 .renew-header {
@@ -6509,13 +6512,17 @@ input[type='file'] {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 56px 0;
+  padding: 55px 0 60px;
   border-radius: 10px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
   background: #fff;
 }
 
-.renew-form.form-shape:after {
+.renew-form.form-shape:before {
+  top: -73px;
+}
+
+.section-renew .form-shape:after {
   width: 41vw;
   height: 38vw;
   bottom: -29%;
@@ -6523,12 +6530,12 @@ input[type='file'] {
 }
 
 .renew-form__inner {
-  margin-bottom: 45px;
+  margin-bottom: 47px;
   width: 550px;
 }
 
 .renew-form__row {
-  margin-bottom: 25px;
+  margin-bottom: 23px;
 }
 
 .renew-form label {
@@ -6539,13 +6546,14 @@ input[type='file'] {
 }
 
 .form-helper-text {
-  text-align: center;
+  font-size: 18px;
   line-height: 2.7778;
+  text-align: center;
   color: #8A86A7;
 }
 
 .renew-form__row--inline {
-  margin-top: -19px;
+  margin-top: -18px;
   text-align: center;
 }
 
@@ -6565,7 +6573,7 @@ input[type='file'] {
 }
 
 .renew-form__row--inline .select__label:after {
-  top: 11px;
+  top: 10px;
   right: 0px;
 }
 
@@ -6575,15 +6583,14 @@ input[type='file'] {
 
 @media (max-width: 1599px) {
   .section-renew {
-    margin-bottom: 182px;
-    padding: 73px 0;
+    margin-bottom: 257px;
   }
 
   .section-renew.section-shape:after {
     width: 866px;
     height: 866px;
     left: 40%;
-    top: 8px;
+    top: -133px;
   }
 
   .renew-form.form-shape:before {
@@ -6593,8 +6600,13 @@ input[type='file'] {
     height: 274px;
   }
 
+  .section-renew .row-center {
+    margin-bottom: 38px;
+    font-size: 20px;
+  }
+
   .renew-form__inner {
-    margin-bottom: 9px;
+    margin-bottom: 20px;
     width: 430px;
   }
 
@@ -6604,13 +6616,13 @@ input[type='file'] {
 
   .renew-form.form-shape:after {
     bottom: -20%;
-    left: 72%;
+    left: 73%;
     min-width: 598px;
     min-height: 598px;
   }
 
   .renew-form__row {
-    margin-bottom: 36px;
+    margin-bottom: 32px;
   }
 
   .renew-form label {
@@ -6626,7 +6638,7 @@ input[type='file'] {
   }
 
   .renew-form__row--inline .select__label:after {
-    top: 13px;
+    top: 11px;
     right: 0;
     width: 35px;
   }
@@ -6647,7 +6659,7 @@ input[type='file'] {
     width: 69vw;
     height: 69vw;
     left: 40%;
-    top: 60px;
+    top: -100px;
   }
 
   .renew-form {
@@ -6672,6 +6684,11 @@ input[type='file'] {
     font-size: 16px;
   }
 
+  .form-helper-text {
+    margin: 20px -55px -10px;
+    line-height: 1.4;
+  }
+
   .renew-form__row--inline .select__list {
     height: 37px;
     font-size: 16px;
@@ -6682,17 +6699,27 @@ input[type='file'] {
     height: 37px;
     background-size: 59%;
   }
+
+  .input-wrapper {
+    margin-left: 25px;
+  }
 }
 
 @media (max-width: 992px) {
   .section-renew {
-    margin-bottom: 113px;
-    padding: 79px 0;
+    margin-bottom: 213px;
+  }
+
+  .section-renew .row-center {
+    margin-bottom: 33px;
+    font-size: 16px;
   }
 
   .section-renew.section-shape:after {
     min-width: 613px;
     min-height: 613px;
+    left: 28%;
+    top: -93px;
   }
 
   .renew-header {
@@ -6700,7 +6727,7 @@ input[type='file'] {
   }
 
   .renew-form {
-    padding: 38px 0 31px;
+    padding: 37px 0 31px;
   }
 
   .renew-form.form-shape:before {
@@ -6721,12 +6748,18 @@ input[type='file'] {
     width: 322px;
   }
 
+  .renew-form__row {
+    margin-bottom: 24px;
+  }
+
   .form-helper-text {
-    margin: 13px -55px 0;
+    margin: 24px -63px 0;
+    font-size: 16px;
+    max-width: none;
   }
 
   .renew-form__row--inline {
-    margin-top: -24px;
+    margin-top: -8px;
     margin-bottom: 34px;
   }
 
@@ -6735,7 +6768,7 @@ input[type='file'] {
   }
 
   .renew-form__row--inline .select__label:after {
-    top: 12px;
+    top: 10px;
     width: 35px;
     height: 35px;
   }
@@ -6744,11 +6777,15 @@ input[type='file'] {
     height: 35px;
     padding: 5px 34px 5px 23px;
   }
+
+  .input-wrapper {
+    margin-left: 48px;
+  }
 }
 
 @media (max-width: 767px) {
   .section-renew {
-    padding: 60px 0;
+    margin-bottom: 111px;
   }
 
   .section-renew.section-shape:after {
@@ -6763,7 +6800,12 @@ input[type='file'] {
     top: 15px;
   }
 
-  .section-renew .inner {
+  .section-renew .row-center {
+    margin-bottom: 23px;
+    font-size: 14px;
+  }
+
+  .section-renew .container {
     padding: 0;
   }
 
@@ -6774,12 +6816,13 @@ input[type='file'] {
   .renew-form {
     width: 100%;
     max-width: 600px;
+    margin: 0 auto;
     padding: 32px 0 35px;
   }
 
   .renew-form.form-shape:after {
     bottom: -15%;
-    left: 62%;
+    left: 67%;
     width: 79vw;
     height: 79vw;
     max-width: 445px;
@@ -6801,12 +6844,16 @@ input[type='file'] {
   }
 
   .renew-form__row--inline {
-    margin-top: 31px;
+    margin-top: 34px;
     margin-bottom: 30px;
   }
 
+  .renew-form__row--inline .select__label {
+    font-size: 16px;
+  }
+
   .renew-form__row--inline .select__label:after {
-    top: 6px;
+    top: 3px;
   }
 }
 /* end Renew template */
