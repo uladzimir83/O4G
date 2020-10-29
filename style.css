@@ -5518,15 +5518,15 @@ tbody:last-of-type tr:last-child {
 /* FAQ template */
 
 .section-faq {
-  margin-bottom: 170px;
-  padding: 78px 0;
+  margin-bottom: 221px;
+  padding: 19px 0;
 }
 
-.section-faq .container:after {
+.section-faq:after {
   z-index: -2;
   position: absolute;
-  top: 1436px;
-  right: -219px;
+  bottom: -89px;
+  right: 81px;
   content: '';
   width: 25.3vw;
   height: 25.3vw;
@@ -5545,7 +5545,7 @@ tbody:last-of-type tr:last-child {
 
 .faq__list:before {
   position: absolute;
-  top: -92px;
+  top: -98px;
   left: -209px;
   z-index: -1;
   content: '';
@@ -5667,6 +5667,10 @@ tbody:last-of-type tr:last-child {
   margin-bottom: 0;
 }
 
+.faq__media {
+  margin-bottom: 23px;
+}
+
 @media (max-width: 1599px) {
   .faq__item:first-child,
   .faq__item:last-child {
@@ -5687,8 +5691,8 @@ tbody:last-of-type tr:last-child {
 }
 
 @media (max-width: 1365px) {
-  .section-faq .container:after {
-    top: 1315px;
+  .section-faq:after {
+    right: -30px;
   }
 
   .faq__item:first-child,
@@ -5712,7 +5716,7 @@ tbody:last-of-type tr:last-child {
 }
 
 @media (max-width: 1200px) {
-  .section-faq .container:after {
+  .section-faq:after {
     right: -55px;
     width: 300px;
     height: 300px;
@@ -5738,7 +5742,7 @@ tbody:last-of-type tr:last-child {
 }
 
 @media (max-width: 992px) {
-  .section-faq{
+  .section-faq {
     padding-top: 40px;
   }
 
@@ -5764,15 +5768,15 @@ tbody:last-of-type tr:last-child {
 }
 
 @media (max-width: 767px) {
-  .section-faq{
-    margin-bottom: 35px;
+  .section-faq {
+    margin-bottom: 100px;
   }
 
-  .section-faq .container:after {
+  .section-faq:after {
     display: none;
   }
 
-  .section-faq .inner {
+  .section-faq .container {
     padding: 0;
   }
 
