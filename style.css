@@ -5913,13 +5913,12 @@ tbody:last-of-type tr:last-child {
 /* Support template */
 
 .section-support {
-  margin-bottom: 200px;
-  padding: 78px 0;
+  margin-bottom: 512px;
 }
 
 .section-shape:after {
   position: absolute;
-  top: 53px;
+  top: -114px;
   left: 41%;
   z-index: -2;
   width: 1285px;
@@ -5930,10 +5929,9 @@ tbody:last-of-type tr:last-child {
 }
 
 .support-leading {
-  max-width: 995px;
-  margin: 0 auto 43px;
+  max-width: 985px;
+  margin: 0 auto 36px;
   text-align: center;
-  word-spacing: -0.8px;
 }
 
 .support-form {
@@ -5950,8 +5948,8 @@ tbody:last-of-type tr:last-child {
 
 .form-shape:before {
   position: absolute;
-  top: -124px;
-  left: -2px;
+  top: -131px;
+  left: -1px;
   transform: translateX(-50%);
   z-index: -1;
   width: 250px;
@@ -5975,7 +5973,7 @@ tbody:last-of-type tr:last-child {
 }
 
 .support-form__title {
-  margin-bottom: 19px;
+  margin-bottom: 18px;
   font-size: 26px;
   line-height: 1.731;
 }
@@ -5987,7 +5985,7 @@ tbody:last-of-type tr:last-child {
 .support-form label {
   display: block;
   width: 100%;
-  margin-bottom: 24px;
+  margin-bottom: 23px;
   font-size: 20px;
 }
 
@@ -5998,7 +5996,7 @@ tbody:last-of-type tr:last-child {
 .select__label:after {
   content: '';
   position: absolute;
-  top: 37px;
+  top: 38px;
   right: -1px;
   width: 35px;
   height: 50px;
@@ -6011,7 +6009,8 @@ tbody:last-of-type tr:last-child {
   position: relative;
   display: block;
   width: 100%;
-  margin-top: 11px;
+  height: 50px;
+  margin-top: 10px;
   padding: 12px 15px;
   font-size: 18px;
   line-height: 2.778;
@@ -6039,7 +6038,7 @@ input[type='email'],
 input[type='tel'],
 textarea {
   width: 100%;
-  margin-top: 11px;
+  margin-top: 10px;
   padding: 11px 10px;
   font-family: Nunito, sans-serif;
   font-weight: normal;
@@ -6148,12 +6147,11 @@ input[type='file'] {
 
 @media (max-width: 1599px) {
   .section-support {
-    margin-bottom: 200px;
-    padding: 66px 0;
+    margin-bottom: 468px;
   }
 
   .section-shape:after {
-    top: 0px;
+    top: -143px;
     left: 34%;
     width: 1012px;
     height: 1012px;
@@ -6164,7 +6162,7 @@ input[type='file'] {
   }
 
   .form-shape:before {
-    top: -72px;
+    top: -71px;
     left: 7px;
     width: 195px;
     height: 195px;
@@ -6177,8 +6175,8 @@ input[type='file'] {
   }
 
   .support-leading {
-    max-width: 895px;
-    margin-bottom: 40px;
+    max-width: 885px;
+    margin-bottom: 25px;
   }
 
   .support-col {
@@ -6186,22 +6184,23 @@ input[type='file'] {
   }
 
   .support-form__title {
-    margin-bottom: 25px;
+    margin-bottom: 22px;
     letter-spacing: -1.1px;
   }
 
   .support-form label {
-    margin-bottom: 36px;
+    margin-bottom: 33px;
     font-size: 18px;
   }
 
   .select__list {
-    margin-top: 13px;
+    height: 40px;
+    margin-top: 11px;
     padding: 7px 15px;
   }
 
   .select__label:after {
-    top: 36px;
+    top: 39px;
     right: 0px;
     width: 28px;
     height: 40px;
@@ -6211,7 +6210,7 @@ input[type='file'] {
   input[type='email'],
   input[type='tel'],
   textarea {
-    margin-top: 13px;
+    margin-top: 11px;
     padding: 7px 10px;
     font-size: 16px;
   }
@@ -6243,12 +6242,24 @@ input[type='file'] {
 }
 
 @media (max-width: 1365px) {
+  .section-support {
+    margin-bottom: 268px;
+  }
+
   .select__label:after {
     top: 35px;
   }
 }
 
 @media (max-width: 1200px) {
+  .section-support {
+    margin-bottom: 400px;
+  }
+
+  .support-leading {
+    max-width: 685px;
+  }
+
   .support-form {
     padding: 30px 60px;
   }
@@ -6261,6 +6272,10 @@ input[type='file'] {
   .support-form label {
     margin-bottom: 20px;
     font-size: 16px;
+  }
+
+  .select__label:after {
+    top: 33px;
   }
 
   input[type='text'],
@@ -6290,21 +6305,20 @@ input[type='file'] {
 
 @media (max-width: 992px) {
   .section-support {
-    margin-bottom: 87px;
-    padding: 78px 0;
+    margin-bottom: 365px;
   }
 
   .section-shape:after {
-    top: 50px;
+    top: -87px;
     left: initial;
-    right: -160px;
+    right: -85px;
     width: 726px;
     height: 726px;
   }
 
   .support-leading {
     max-width: 530px;
-    margin-bottom: 35px;
+    margin-bottom: 26px;
   }
 
   .support-form {
@@ -6312,7 +6326,7 @@ input[type='file'] {
   }
 
   .form-shape:before {
-    top: -36px;
+    top: -35px;
     left: 73px;
   }
 
@@ -6328,7 +6342,8 @@ input[type='file'] {
   }
 
   .select__list {
-    margin-top: 12px;
+    height: 36px;
+    margin-top: 10px;
     padding: 5px 15px;
   }
 
@@ -6338,7 +6353,7 @@ input[type='file'] {
   }
 
   .support-form label {
-    margin-bottom: 25px;
+    margin-bottom: 23px;
   }
 
   input[type='text'],
@@ -6350,12 +6365,16 @@ input[type='file'] {
     font-size: 14px;
   }
 
+  textarea {
+    padding: 12px;
+  }
+
   .support-form__submit {
-    bottom: -183px;
+    bottom: -187px;
   }
 
   .support-form__submit .check__label {
-    margin-bottom: 14px;
+    margin-bottom: 12px;
   }
 
   .wpcf7-list-item-label {
@@ -6369,22 +6388,25 @@ input[type='file'] {
 
 @media (max-width: 767px) {
   .section-support {
-    margin-bottom: 225px;
-    padding: 60px 0;
+    margin-bottom: 294px;
   }
 
   .section-shape:after {
-    top: 15px;
+    top: -100px;
     right: -12%;
     width: 106.7vw;
     height: 106.7vw;
     background: linear-gradient(263.67deg, #E6E9EE 1.03%, rgba(255, 255, 255, 0.1) 85.54%);
   }
 
+  .section-support .container {
+    padding: 0;
+  }
+
   .support-leading {
     max-width: none;
-    margin-bottom: 24px;
-    padding: 0 5px;
+    margin-bottom: 30px;
+    padding: 0 20px;
   }
 
   .section-support .inner {
@@ -6429,7 +6451,7 @@ input[type='file'] {
   }
 
   .select__list {
-    margin-top: 6px;
+    margin-top: 3px;
     padding: 7px 6px;
     font-size: 14px;
   }
@@ -6438,7 +6460,7 @@ input[type='file'] {
   input[type='email'],
   input[type='tel'],
   textarea {
-    margin-top: 6px;
+    margin-top: 3px;
     padding: 8px 10px;
     font-size: 12px;
   }
@@ -6452,6 +6474,10 @@ input[type='file'] {
   :-moz-placeholder           {font-size: 12px;}/* Firefox 18- */
   :-ms-input-placeholder      {font-size: 12px;}
 
+  .support-form__submit .check__label {
+    margin-bottom: 7px;
+  }
+
   .phone-row {
     display: block;
   }
@@ -6461,7 +6487,7 @@ input[type='file'] {
   }
 
   .support-form__submit {
-    bottom: -185px;
+    bottom: -194px;
     left: 0;
     width: 100%;
     transform: none;
