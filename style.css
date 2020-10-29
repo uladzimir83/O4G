@@ -4164,6 +4164,9 @@ tbody:last-of-type tr:last-child {
 /* end Features template */
 
 /* Download template */
+.main__download .text-media {
+  padding: 78px 0 100px;
+}
 
 .version-title {
   margin-bottom: 22px;
@@ -4175,13 +4178,9 @@ tbody:last-of-type tr:last-child {
   margin-bottom: 30px;
 }
 
-.main__download .text-media {
-  padding-top: 78px;
-}
-
 .main__download .text-media__left {
-  width: 517px;
-  margin-top: -7px;
+  width: 568px;
+  margin-top: -15px;
 }
 
 .main__download .text-media__left:before {
@@ -4189,12 +4188,12 @@ tbody:last-of-type tr:last-child {
 }
 
 .main__download .text-media__right:after {
-  bottom: -139px;
-  right: -129px;
+  bottom: -137px;
+  right: -208px;
 }
 
 .main__download .text-media__img {
-  margin-left: -6px;
+  margin: -7px 0 0 -5px;
 }
 
 .download-row__content {
@@ -4202,11 +4201,12 @@ tbody:last-of-type tr:last-child {
 }
 
 .section-keys {
-  padding: 127px 0 40px;
+  padding: 100px 0 40px;
 }
 
-.keys-row__title {
-  margin-bottom: 25px;
+.section-keys .section-title {
+  margin-bottom: 52px;
+  text-align: center;
 }
 
 .keys__list {
@@ -4219,7 +4219,7 @@ tbody:last-of-type tr:last-child {
 
 .keys__item {
   position: relative;
-  padding: 0 90px 0 143px;
+  padding: 0 85px 0 143px;
   font-size: 18px;
   line-height: 2.7778;
 }
@@ -4234,7 +4234,10 @@ tbody:last-of-type tr:last-child {
 }
 
 .keys__item:last-child {
-  padding: 18px 0 38px 0;
+  padding: 13px 0 38px 0;
+  font-family: Quicksand, sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
 
 .keys__item:before {
@@ -4253,19 +4256,16 @@ tbody:last-of-type tr:last-child {
 
 .download-terms {
   margin-top: -110px;
-  padding: 173px 0 176px 0;
+  padding: 173px 0 158px 0;
   background: linear-gradient(89.3deg, rgba(89, 139, 240, 0.7) 61.99%, rgba(116, 182, 254, 0.2) 100%);
 }
 
 .download-terms__text {
   max-width: 1040px;
   margin: 0 auto;
-  font-family: Quicksand, sans-serif;
   font-size: 26px;
-  font-weight: 500;
   text-align: center;
-  line-height: 1.27;
-  word-spacing: 1px;
+  line-height: 1.4;
   color: #fff;
 }
 
@@ -4274,25 +4274,26 @@ tbody:last-of-type tr:last-child {
   color: #f8ebdb;
 }
 
-.section-faq {
-  margin-bottom: 200px;
+.section-faq-card {
+  margin-bottom: 225px;
   padding: 175px 0 70px;
 }
 
-.faq-row__title {
-  margin-bottom: 82px;
+.section-faq-card .section-title {
+  margin-bottom: 107px;
+  text-align: center;
 }
 
 .cards__wrapper {
   flex-wrap: wrap;
-  margin: 0 -34px;
-  width: calc(100% + 68px);
+  margin: 0 -38px;
+  width: calc(100% + 76px);
 }
 
 .offer__card {
   overflow: hidden;
-  flex: 1 1 28%;
-  margin: 0 34px 60px;
+  flex: 1 1 27%;
+  margin: 0 38px 60px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
@@ -4332,14 +4333,18 @@ tbody:last-of-type tr:last-child {
   text-decoration: underline;
 }
 
-.section-faq .plain__link {
+.section-faq-card .plain__link {
   text-decoration: underline;
   text-decoration-color: #3f5de5;
   transition: .5s;
 }
 
-.section-faq .plain__link:hover {
+.section-faq-card .plain__link:hover {
   text-decoration-color: transparent;
+}
+
+.section-faq-card .text-center {
+  letter-spacing: normal;
 }
 
 @media (max-width: 1599px) {
@@ -4372,7 +4377,12 @@ tbody:last-of-type tr:last-child {
     padding: 150px 0;
   }
 
-  .section-faq {
+  .download-terms__text {
+    max-width: 900px;
+    font-size: 22px;
+  }
+
+  .section-faq-card {
     padding: 140px 0 70px;
   }
 
@@ -4416,9 +4426,13 @@ tbody:last-of-type tr:last-child {
     padding: 110px 0;
   }
 
-  .section-faq {
+  .section-faq-card {
     margin-bottom: 130px;
     padding: 90px 0 70px;
+  }
+
+  .section-faq-card .section-title {
+    margin-bottom: 60px;
   }
 
   .offer__card__link {
@@ -4455,12 +4469,13 @@ tbody:last-of-type tr:last-child {
   }
 
   .keys__item:last-child {
-    padding: 14px 0 24px 0;
+    font-size: 16px;
+    padding: 8px 0 14px 0;
   }
 
   .download-terms__text {
-    max-width: 880px;
-    font-size: 22px;
+    max-width: 735px;
+    font-size: 18px;
     line-height: 1.4;
   }
 
@@ -4469,21 +4484,51 @@ tbody:last-of-type tr:last-child {
     padding: 80px 0;
   }
 
-  .section-faq {
+  .section-faq-card {
     margin-bottom: 85px;
     padding: 70px 0;
+  }
+
+  .cards__wrapper {
+    margin: 0 -15px;
+    width: calc(100% + 30px);
+  }
+
+  .offer__card {
+    margin: 0 15px 30px;
+  }
+
+  .offer__card__header {
+    padding: 20px;
+  }
+
+  .offer__card__title {
+    font-size: 20px;
+  }
+
+  .offer__card__body {
+    padding: 20px 20px 25px;
+  }
+
+  .offer__card__text {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .offer__card__link {
+    font-size: 18px;
   }
 }
 
 @media (max-width: 992px) {
   .main__download .text-media {
-    padding-top: 40px;
+    padding-top: 20px;
     margin-top: 0;
   }
 
   .main__download .text-media__left {
     width: 500px;
-    max-width: none;
+    max-width: 450px;
     margin: 0 auto 10px;
   }
 
@@ -4499,7 +4544,7 @@ tbody:last-of-type tr:last-child {
 
   .download-terms__text {
     max-width: 610px;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .cards__wrapper {
@@ -4564,12 +4609,16 @@ tbody:last-of-type tr:last-child {
     padding: 30px 0 40px;
   }
 
+  .section-keys .container {
+    padding: 0;
+  }
+
   .keys-row__list {
     padding: 0;
   }
 
   .keys__item {
-    padding: 12px 20px 12px 40px;
+    padding: 12px 20px 12px 50px;
     font-size: 14px;
     line-height: 1.4;
   }
@@ -4579,10 +4628,10 @@ tbody:last-of-type tr:last-child {
   }
 
   .keys__item:before {
-    top: 15px;
-    left: 12px;
-    width: 16px;
-    height: 12px;
+    top: 18px;
+    left: 25px;
+    width: 12px;
+    height: 9px;
   }
 
   .keys__item:last-child {
@@ -4595,21 +4644,25 @@ tbody:last-of-type tr:last-child {
   }
 
   .download-terms__text {
-    font-size: 18px;
+    font-size: 16px;
   }
 
-  .section-faq {
+  .section-faq-card {
     padding: 30px 0;
   }
 
+  .section-faq-card .section-title {
+    margin-bottom: 30px;
+  }
+
   .cards__wrapper {
-    margin: 0 -15px;
-    width: calc(100% + 30px);
+    margin: 0 -10px;
+    width: calc(100% + 20px);
   }
 
   .offer__card {
-    margin: 0 15px 30px;
-    flex: 1 1 30%;
+    margin: 0 10px 20px;
+    flex: 1 1 31%;
   }
 
   .offer__card__header {
@@ -4620,8 +4673,16 @@ tbody:last-of-type tr:last-child {
     font-size: 20px;
   }
 
+  .offer__card__text {
+    font-size: 14px;
+  }
+
   .offer__card__link {
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .section-faq-card .text-center {
+    max-width: 310px;
   }
 }
 
