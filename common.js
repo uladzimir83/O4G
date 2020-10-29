@@ -9,7 +9,7 @@ $(document).on('click', '.hamburger', function(e) {
     $(this).addClass('is-active');
     $('.section-nav').hasClass('is-scroll') ? $('.section-nav').addClass('is-scroll-tablet') : null;
   }
-  
+
 });
 
 $(window).on('scroll', function() {
@@ -51,7 +51,9 @@ function stickyNav() {
     }).trigger('scroll');
 }
 
-$('.main-page') ? stickyNav() : null;
+if($('main').hasClass('main-page')) {
+  stickyNav();
+}
 
 
 
@@ -92,7 +94,7 @@ function toggleList() {
           itemBody.slideUp(400);
           return;
         }
-        
+
         itemsBody.slideUp();
 
         items.removeClass('is-open');
