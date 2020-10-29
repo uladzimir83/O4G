@@ -4703,7 +4703,7 @@ tbody:last-of-type tr:last-child {
 /* Purchase template */
 
 .section-pricing {
-  padding: 60px 0 171px;
+  padding: 77px 0 171px;
   background: linear-gradient(-90.6deg, #E6E9EE 0.16%, rgba(255, 255, 255, 0) 62.48%);
 }
 
@@ -4747,6 +4747,7 @@ tbody:last-of-type tr:last-child {
 }
 
 .section-pricing .text-center {
+  max-width: 880px;
   margin-bottom: 30px;
   letter-spacing: 0.1px;
 }
@@ -4776,21 +4777,22 @@ tbody:last-of-type tr:last-child {
 }
 
 .section-refunds .section-title {
+  margin-bottom: 31px;
+  text-align: center;
   color: #fff;
 }
 
 .refunds-title {
-  margin: 26px 0 15px;
+  margin: 30px 0 15px;
   font-size: 26px;
   text-align: center;
   color: #fff;
 }
 
 .section-refunds p {
-  max-width: 1070px;
+  max-width: 1084px;
   margin: 0 auto;
   text-align: center;
-  letter-spacing: 0.1px;
   color: #fff;
 }
 
@@ -4825,8 +4827,13 @@ tbody:last-of-type tr:last-child {
   background: linear-gradient(270deg, #E6E9EE 12.81%, rgba(255, 255, 255, 0.1) 100%);
 }
 
+.section-affiliate .section-title {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
 .section-affiliate .text-center {
-  max-width: 660px;
+  max-width: 620px;
   letter-spacing: 0.1px;
 }
 
@@ -4835,8 +4842,16 @@ tbody:last-of-type tr:last-child {
     padding: 60px 0 150px;
   }
 
+  .section-pricing .text-center {
+    max-width: 700px;
+  }
+
   .section-refunds {
     padding: 150px 0;
+  }
+
+  .section-refunds p {
+    max-width: 950px;
   }
 }
 
@@ -4845,40 +4860,57 @@ tbody:last-of-type tr:last-child {
     padding: 60px 0 110px;
   }
 
+  .section-pricing .cards__wrapper {
+    margin: 0 -20px;
+    width: calc(100% + 40px);
+  }
+
+  .section-pricing .offer__card {
+    margin: 0 20px 60px;
+  }
+
   .section-refunds {
     padding: 110px 0;
   }
 
   .section-affiliate {
-    padding: 110px 0;
+    padding: 75px 0;
   }
 
   .section-affiliate:before {
-    width: 835px;
-    height: 835px;
+    width: 775px;
+    height: 775px;
   }
 
   .section-affiliate .container:after {
     right: -25px;
   }
+
+  .section-affiliate .section-title {
+    margin-bottom: 20px;
+  }
+
+  .section-affiliate .text-center {
+    max-width: 360px;
+  }
 }
 
 @media (max-width: 1200px) {
-  .cards__wrapper.purchase__cards {
+  .section-pricing .cards__wrapper {
     margin: 0 -15px;
     width: calc(100% + 30px);
   }
 
-  .purchase__cards .offer__card {
+  .section-pricing .offer__card {
     flex: 1 1 27%;
     margin: 0 15px 60px;
   }
 
-  .purchase__cards .offer__card__header {
+  .section-pricing .offer__card__header {
     padding: 30px;
   }
 
-  .purchase__cards .offer__card__body {
+  .section-pricing .offer__card__body {
     padding: 45px 30px 45px;
   }
 
@@ -4892,6 +4924,11 @@ tbody:last-of-type tr:last-child {
 
   .section-pricing {
     padding: 60px 0 80px;
+  }
+
+  .section-pricing .text-center {
+    max-width: 575px;
+    font-size: 16px;
   }
 
   .section-refunds {
@@ -4909,12 +4946,13 @@ tbody:last-of-type tr:last-child {
 }
 
 @media (max-width: 992px) {
-  .purchase__cards .offer__card {
-    margin: 0 15px 40px;
+  .section-pricing .cards__wrapper {
+    margin: 0 -10px;
+    width: calc(100% + 20px);
   }
 
-  .offer__card__title {
-    font-size: 22px;
+  .section-pricing .offer__card {
+    margin: 0 10px 40px;
   }
 
   .offer__card__price {
@@ -4923,6 +4961,10 @@ tbody:last-of-type tr:last-child {
 
   .offer__card__type {
     font-size: 18px;
+  }
+
+  .section-pricing .btn-row {
+    margin: 35px auto;
   }
 
   .refunds-title {
@@ -4952,15 +4994,16 @@ tbody:last-of-type tr:last-child {
     display: none;
   }
 
-  .cards__wrapper.purchase__cards {
+  .section-pricing .cards__wrapper {
     margin: 0px;
+    margin-bottom: 20px;
     width: 100%;
   }
 
-  .purchase__cards .offer__card {
+  .section-pricing .offer__card {
     flex: 1 1 100%;
     max-width: 400px;
-    margin: 0 auto 24px;
+    margin: 0 auto 20px;
   }
 
   .section-pricing .btn-row {
