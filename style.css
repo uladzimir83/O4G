@@ -267,7 +267,7 @@ section {
 
 /* section with text in left and laptop image in right */
 .text-media__left {
-  margin-top: -15px;
+  margin: -15px 0 0 0;
 }
 
 .text-media__left:before {
@@ -319,7 +319,7 @@ section {
 
 @media (max-width: 1599px) {
   .text-media__left {
-    margin-top: -52px;
+    margin: -52px 0 0 0;
   }
 
   .text-media__left:before {
@@ -365,7 +365,6 @@ section {
 @media (max-width: 1200px) {
   .text-media__left {
     width: 330px;
-    margin-top: -52px;
   }
 
   .text-media__left:before {
@@ -703,7 +702,7 @@ section {
 @media (min-width: 993px) {
 
   .header-nav.is-scrolled .lang__list {
-    top: 45px;
+    top: 53px;
   }
 
   .header-nav.is-scrolled .lang__list:before {
@@ -947,7 +946,7 @@ section {
 
 .header-shape {
   position: absolute;
-  bottom: -181px;
+  bottom: -178px;
   width: 100%;
   height: 360px;
 }
@@ -1012,6 +1011,10 @@ section {
 
   .header-nav {
     padding: 16px 0;
+  }
+
+  .logo {
+    height: 36px;
   }
 
   .logo__link {
@@ -1381,7 +1384,7 @@ section {
 
   .header-shape__mobile {
     bottom: -88px;
-    width: 116%;
+    width: 100%;
     height: 90px;
   }
 }
@@ -1399,7 +1402,7 @@ section {
 
 .section-nav.is-scroll .container {
   position: fixed;
-  top: 65px;
+  top: 73px;
   z-index: 2;
   width: 100%;
   max-width: none;
@@ -1462,14 +1465,19 @@ section {
 
 @media (max-width: 1365px) {
   .section-nav.is-scroll .container {
-    top: 55px;
+    top: 68px;
   }
 }
 
 @media (max-width: 1200px) {
+  .section-nav.is-scroll .container {
+    top: 55px;
+  }
+
   .section-nav.is-scroll-tablet .container {
     top: 107px;
   }
+
 }
 
 @media (max-width: 992px) {
@@ -1510,6 +1518,7 @@ section {
 
   .text-media__img:after {
     max-width: 1300px;
+    left: 50%;
   }
 
   .media__img {
