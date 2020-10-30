@@ -2426,9 +2426,11 @@ tbody:last-of-type tr:last-child {
 /* for mackbook and other  retina displays */
 @media (min-width: 1921px) {
   .section-features:before {
-    right: 15px;
+    right: 15%;
     width: 64vw;
     height: 64.65vw;
+    max-width: 1200px;
+    max-height: 1200px;
   }
 
   .section-features:after {
@@ -6885,6 +6887,16 @@ input[type='file'] {
 .input-wrapper {
   margin-left: 35px;
 }
+
+/* for mackbook and other  retina displays */
+@media (min-width: 1921px) {
+  .section-renew .form-shape:after {
+    width: 600px;
+    height: 600px;
+    bottom: -29%;
+    left: 69%;
+}
+/* end for mackbook and other  retina displays */
 
 @media (max-width: 1599px) {
   .section-renew {
